@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\RedeSocial\\WebSite\\WebSite.csproj": {}
+    "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\WebSite.csproj": {}
   },
   "projects": {
-    "E:\\C#\\RedeSocial\\WebSite\\WebSite.csproj": {
+    "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\WebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\RedeSocial\\WebSite\\WebSite.csproj",
+        "projectUniqueName": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\WebSite.csproj",
         "projectName": "WebSite",
-        "projectPath": "E:\\C#\\RedeSocial\\WebSite\\WebSite.csproj",
+        "projectPath": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\WebSite.csproj",
         "packagesPath": "C:\\Users\\muira\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\RedeSocial\\WebSite\\obj\\",
+        "outputPath": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,7 +55,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
