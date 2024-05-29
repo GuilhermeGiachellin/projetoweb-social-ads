@@ -1,0 +1,4 @@
+C:\Users\gilik\Downloads\NovoProjeto\ftec.projweb.sistema.Domain\obj\Debug\net8.0\ftec.projweb.sistema.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilik\Downloads\NovoProjeto\ftec.projweb.sistema.Domain\obj\Debug\net8.0\ftec.projweb.sistema.Domain.AssemblyInfoInputs.cache
+C:\Users\gilik\Downloads\NovoProjeto\ftec.projweb.sistema.Domain\obj\Debug\net8.0\ftec.projweb.sistema.Domain.AssemblyInfo.cs
+C:\Users\gilik\Downloads\NovoProjeto\ftec.projweb.sistema.Domain\obj\Debug\net8.0\ftec.projweb.sistema.Domain.csproj.CoreCompileInputs.cache
