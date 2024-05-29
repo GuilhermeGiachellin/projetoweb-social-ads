@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ftec.projweb.sistema.api.props" />
+</Project>
