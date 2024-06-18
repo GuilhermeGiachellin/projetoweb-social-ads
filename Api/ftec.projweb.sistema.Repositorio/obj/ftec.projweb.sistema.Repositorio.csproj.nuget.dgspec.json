@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\New folder\\ftec.projweb.sistema.Repositorio\\ftec.projweb.sistema.Repositorio.csproj": {}
+    "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Repositorio\\ftec.projweb.sistema.Repositorio.csproj": {}
   },
   "projects": {
-    "E:\\C#\\New folder\\ftec.projweb.sistema.Repositorio\\ftec.projweb.sistema.Repositorio.csproj": {
+    "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Repositorio\\ftec.projweb.sistema.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\New folder\\ftec.projweb.sistema.Repositorio\\ftec.projweb.sistema.Repositorio.csproj",
+        "projectUniqueName": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Repositorio\\ftec.projweb.sistema.Repositorio.csproj",
         "projectName": "ftec.projweb.sistema.Repositorio",
-        "projectPath": "E:\\C#\\New folder\\ftec.projweb.sistema.Repositorio\\ftec.projweb.sistema.Repositorio.csproj",
+        "projectPath": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Repositorio\\ftec.projweb.sistema.Repositorio.csproj",
         "packagesPath": "C:\\Users\\muira\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\New folder\\ftec.projweb.sistema.Repositorio\\obj\\",
+        "outputPath": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muira\\AppData\\Roaming\\NuGet\\NuGet.Config",

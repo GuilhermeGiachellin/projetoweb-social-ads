@@ -8,13 +8,13 @@ namespace ftec.projweb.sistema.Domain.Entidades
 { 
     public class Preferencias
     {
-      //  public Guid Id { get; set; }
+        public Guid Id { get; set; }
         public string Categoria { get; set; }
         public string Recomendar { get; set; }
     
         public Preferencias()
 	    {
-         //   this.Id = Guid.newGuid();
+            this.Id = Guid.NewGuid();
             this.Categoria =  string.Empty;
             this.Recomendar = string.Empty;
         }

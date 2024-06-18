@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace ftec.projweb.sistema.Domain.Repositorio
 {
-    public interface IAnuncioRepositorio
+    public interface IPreferenciasRepository
     {
-        void Inserir(Anuncio anuncio);
-        void Alterar(Anuncio anuncio);
+        void Inserir(Preferencias preferencias);
+        void Alterar(Preferencias preferencia);
         void Excluir(Guid id);
-        Anuncio Procurar(Guid id);
-        List<Anuncio> ProcurarTodos();
+        Preferencias Procurar(Guid id);
+        List<Preferencias> ProcurarTodos();
     }
 }

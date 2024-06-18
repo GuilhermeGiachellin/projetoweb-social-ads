@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ftec.ProjWeb.Anuncio.ExternalService\Ftec.ProjWeb.Anuncio.ExternalService.csproj" />
+    <ProjectReference Include="..\ftec.projweb.sistema.Domain\Ftec.ProjWeb.Anuncio.Domain.csproj" />
+    <ProjectReference Include="..\ftec.projweb.sistema.Repositorio\Ftec.ProjWeb.Anuncio.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
