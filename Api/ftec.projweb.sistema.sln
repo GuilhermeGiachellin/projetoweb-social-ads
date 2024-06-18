@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftec.projweb.sistema.api", "ftec.projweb.sistema.api\ftec.projweb.sistema.api.csproj", "{495CFDA6-F697-45F9-8C0B-3960425EDC1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftec.ProjWeb.Anuncio.API", "ftec.projweb.sistema.api\Ftec.ProjWeb.Anuncio.API.csproj", "{495CFDA6-F697-45F9-8C0B-3960425EDC1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5251AABA-2532-44A3-A60B-3176E0A4C6D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ftec.projweb.sistema.Domain", "ftec.projweb.sistema.Domain\ftec.projweb.sistema.Domain.csproj", "{A06D9423-FA66-413B-AF82-2F118EF228E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftec.ProjWeb.Anuncio.Domain", "ftec.projweb.sistema.Domain\Ftec.ProjWeb.Anuncio.Domain.csproj", "{A06D9423-FA66-413B-AF82-2F118EF228E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{BE144C64-1442-4BC5-A2CB-D811ADBAF332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ftec.projweb.sistema.Repositorio", "ftec.projweb.sistema.Repositorio\ftec.projweb.sistema.Repositorio.csproj", "{CAEC422B-A024-4DE5-86B3-9BCF9740FF76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ftec.ProjWeb.Anuncio.Repository", "ftec.projweb.sistema.Repositorio\Ftec.ProjWeb.Anuncio.Repository.csproj", "{CAEC422B-A024-4DE5-86B3-9BCF9740FF76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ftec.projweb.sistema.Repositorio.Test", "ftec.projweb.sistema.Repositorio.Test\ftec.projweb.sistema.Repositorio.Test.csproj", "{075AE8F1-2EC2-4618-88A9-19D12A671F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ftec.projweb.sistema.Repositorio.Test", "ftec.projweb.sistema.Repositorio.Test\ftec.projweb.sistema.Repositorio.Test.csproj", "{075AE8F1-2EC2-4618-88A9-19D12A671F69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B35F2261-C33E-4611-A257-EB4692EB93C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{1EABA84E-9FB7-4434-A884-B929C8448225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.ProjWeb.Anuncio.Application", "Ftec.ProjWeb.Anuncio.Application\Ftec.ProjWeb.Anuncio.Application.csproj", "{25830A7C-F156-49D8-8742-E500D852A8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.ProjWeb.Anuncio.ExternalService", "Ftec.ProjWeb.Anuncio.ExternalService\Ftec.ProjWeb.Anuncio.ExternalService.csproj", "{8BF61234-0B3A-44A5-A02F-45598AB409D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,14 @@ Global
 		{075AE8F1-2EC2-4618-88A9-19D12A671F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{075AE8F1-2EC2-4618-88A9-19D12A671F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{075AE8F1-2EC2-4618-88A9-19D12A671F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25830A7C-F156-49D8-8742-E500D852A8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25830A7C-F156-49D8-8742-E500D852A8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25830A7C-F156-49D8-8742-E500D852A8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25830A7C-F156-49D8-8742-E500D852A8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF61234-0B3A-44A5-A02F-45598AB409D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF61234-0B3A-44A5-A02F-45598AB409D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF61234-0B3A-44A5-A02F-45598AB409D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF61234-0B3A-44A5-A02F-45598AB409D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +62,8 @@ Global
 		{A06D9423-FA66-413B-AF82-2F118EF228E0} = {5251AABA-2532-44A3-A60B-3176E0A4C6D7}
 		{CAEC422B-A024-4DE5-86B3-9BCF9740FF76} = {BE144C64-1442-4BC5-A2CB-D811ADBAF332}
 		{075AE8F1-2EC2-4618-88A9-19D12A671F69} = {BE144C64-1442-4BC5-A2CB-D811ADBAF332}
+		{25830A7C-F156-49D8-8742-E500D852A8C1} = {1EABA84E-9FB7-4434-A884-B929C8448225}
+		{8BF61234-0B3A-44A5-A02F-45598AB409D4} = {BE144C64-1442-4BC5-A2CB-D811ADBAF332}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5A539A35-8617-4FCC-ACFC-CFA0E527B62A}

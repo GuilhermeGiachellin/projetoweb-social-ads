@@ -30,3 +30,36 @@ E:\C#\New folder\ftec.projweb.sistema.api\obj\Debug\net8.0\refint\ftec.projweb.s
 E:\C#\New folder\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.pdb
 E:\C#\New folder\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.genruntimeconfig.cache
 E:\C#\New folder\ftec.projweb.sistema.api\obj\Debug\net8.0\ref\ftec.projweb.sistema.api.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\appsettings.Development.json
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\appsettings.json
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\ftec.projweb.sistema.api.exe
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\ftec.projweb.sistema.api.deps.json
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\ftec.projweb.sistema.api.runtimeconfig.json
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\ftec.projweb.sistema.api.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\ftec.projweb.sistema.api.pdb
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.csproj.AssemblyReference.cache
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.AssemblyInfoInputs.cache
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.AssemblyInfo.cs
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.csproj.CoreCompileInputs.cache
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.MvcApplicationPartsAssemblyInfo.cs
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.MvcApplicationPartsAssemblyInfo.cache
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.sourcelink.json
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\staticwebassets.build.json
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\staticwebassets.development.json
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\staticwebassets\msbuild.ftec.projweb.sistema.api.Microsoft.AspNetCore.StaticWebAssets.props
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\staticwebassets\msbuild.build.ftec.projweb.sistema.api.props
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ftec.projweb.sistema.api.props
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ftec.projweb.sistema.api.props
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\staticwebassets.pack.json
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\scopedcss\bundle\ftec.projweb.sistema.api.styles.css
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.pro.8BC09475.Up2Date
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\refint\ftec.projweb.sistema.api.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.pdb
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ftec.projweb.sistema.api.genruntimeconfig.cache
+E:\C#\TrabalhoWeb\projetoweb-social-ads\Api\ftec.projweb.sistema.api\obj\Debug\net8.0\ref\ftec.projweb.sistema.api.dll

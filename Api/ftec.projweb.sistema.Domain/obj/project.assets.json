@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\New folder\\ftec.projweb.sistema.Domain\\ftec.projweb.sistema.Domain.csproj",
-      "projectName": "ftec.projweb.sistema.Domain",
-      "projectPath": "E:\\C#\\New folder\\ftec.projweb.sistema.Domain\\ftec.projweb.sistema.Domain.csproj",
+      "projectUniqueName": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Domain\\Ftec.ProjWeb.Anuncio.Domain.csproj",
+      "projectName": "Ftec.ProjWeb.Anuncio.Domain",
+      "projectPath": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Domain\\Ftec.ProjWeb.Anuncio.Domain.csproj",
       "packagesPath": "C:\\Users\\muira\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\New folder\\ftec.projweb.sistema.Domain\\obj\\",
+      "outputPath": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muira\\AppData\\Roaming\\NuGet\\NuGet.Config",

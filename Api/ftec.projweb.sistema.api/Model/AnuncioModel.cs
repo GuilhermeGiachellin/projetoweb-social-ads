@@ -1,0 +1,12 @@
+﻿namespace ftec.projweb.sistema.api.Model
+{
+    public class AnuncioModel
+    {
+        public Guid Id { get; set; }
+        public string UrlImagem { get; set; }
+        public string Link { get; set; }
+        public string Texto { get; set; }
+
+        public AnuncioModel() { }
+    }
+}

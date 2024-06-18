@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7I5iSsGefHQnsoShnA2An0EDoL8p1pyTmia7ddXo7XSjLkNkQOTCq3dqDTQzO8mePhL+zliNohjoH6L02ZKR1g==",
+  "dgSpecHash": "o8Nd5AKWRYH4ox+mUYsjy9YAXk4WQAlB39Skn0Tw/nzxrX8LmD27+VfFLHZIjOdCTS4bkCCTyyKKjG15aC2ekQ==",
   "success": true,
-  "projectFilePath": "E:\\C#\\New folder\\ftec.projweb.sistema.Domain\\ftec.projweb.sistema.Domain.csproj",
+  "projectFilePath": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\Api\\ftec.projweb.sistema.Domain\\Ftec.ProjWeb.Anuncio.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
