@@ -13,6 +13,7 @@ namespace Ftec.ProjWeb.Anuncio.Application.Adapter
             else
             {
                 AnuncioEntidade anuncioDomain = new AnuncioEntidade();
+                anuncioDomain.Id = anuncio.Id;
                 anuncioDomain.UrlImagem = anuncio.UrlImagem;
                 anuncioDomain.Texto = anuncio.Texto;
                 anuncioDomain.UrlImagem = anuncio.UrlImagem;
@@ -29,6 +30,7 @@ namespace Ftec.ProjWeb.Anuncio.Application.Adapter
             else
             {
                 AnuncioDTO anuncioDto = new AnuncioDTO();
+                anuncioDto.Id = anuncio.Id;
                 anuncioDto.Texto = anuncio.Texto;
                 anuncioDto.UrlImagem = anuncio.UrlImagem;
                 anuncioDto.Link = anuncio.Link;

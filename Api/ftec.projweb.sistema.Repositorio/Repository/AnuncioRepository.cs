@@ -66,8 +66,8 @@ public class AnuncioRepository : IAnuncioRepository
                 {
                     var anuncio = new AnuncioEntidade();
                     anuncio.Id = Guid.Parse(leitor["id"].ToString());
-                    anuncio.Texto  = leitor["nome"].ToString();
-                    anuncio.UrlImagem = leitor["cpf"].ToString();
+                    anuncio.Texto  = leitor["texto"].ToString();
+                    anuncio.UrlImagem = leitor["urlImagem"].ToString();
                     anuncio.Link = leitor["link"].ToString();
                     anuncios.Add(anuncio);
                 }

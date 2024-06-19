@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ftec.projweb.sistema.Repositorio.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c192caf4ff4bb292766efa6f5e53cb76f00885e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+434448ca5b1eb94bf07a41bf2df5fef7c4df20b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ftec.projweb.sistema.Repositorio.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ftec.projweb.sistema.Repositorio.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

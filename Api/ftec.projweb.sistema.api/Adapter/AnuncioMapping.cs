@@ -12,6 +12,7 @@ namespace ftec.projweb.sistema.api.Adapter
             else
             {
                 AnuncioModel anuncioModel = new AnuncioModel();
+                anuncioModel.Id = anuncio.Id;
                 anuncioModel.Texto = anuncio.Texto;
                 anuncioModel.UrlImagem = anuncio.UrlImagem;
                 anuncioModel.Link = anuncio.Link;
