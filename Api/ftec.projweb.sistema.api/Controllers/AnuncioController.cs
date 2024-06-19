@@ -23,5 +23,12 @@ namespace ftec.projweb.sistema.api.Controllers
             return anunciosModel.ToArray();
         }
 
+        [HttpPost]
+        public Guid Post(AnuncioModel anuncio)
+        {
+            AnuncioApplication app = new AnuncioApplication();
+            return app.Inserir(AnuncioMapping.ToDto(anuncio));
+        }
+
     }
 }

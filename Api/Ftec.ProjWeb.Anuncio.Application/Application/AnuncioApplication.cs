@@ -1,4 +1,5 @@
-﻿using ftec.projweb.sistema.Repositorio.Repositorio;
+﻿using ftec.projweb.sistema.Domain.Entidades;
+using ftec.projweb.sistema.Repositorio.Repositorio;
 using Ftec.ProjWeb.Anuncio.Application.Adapter;
 using Ftec.ProjWeb.Anuncio.Application.Dto;
 using System;
@@ -28,6 +29,14 @@ namespace Ftec.ProjWeb.Anuncio.Application.Application
                 anuncioDto.Add(AnuncioAdapter.ToDto(anu));
             }
             return anuncioDto;
+        }
+
+        public Guid Inserir(AnuncioDTO anuncio)
+        {
+            AnuncioEntidade anu = AnuncioAdapter.ToDomain(anuncio);
+            anu.Id = Guid.NewGuid();
+            anuncioRepository.Inserir(anu);
+            return anu.Id;
         }
     }
 }
