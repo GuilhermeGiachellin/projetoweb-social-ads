@@ -15,7 +15,7 @@ namespace Ftec.ProjWeb.Anuncio.Application.Application
 
         public AnuncioApplication()
         {
-            string strConexao = "Server=localhost;Port=5432;Database=ftec;User Id=postgres;Password=masterkey;";
+            string strConexao = "Server=pgsql.jmenzen.com.br;Port=5432;Database=jmenzen;User Id=jmenzen;Password='8N9;FLC?;@?I';";
             this.anuncioRepository = new AnuncioRepository(strConexao);
         }
 
