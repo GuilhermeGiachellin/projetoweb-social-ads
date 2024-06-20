@@ -38,5 +38,17 @@ namespace Ftec.ProjWeb.Anuncio.Application.Application
             anuncioRepository.Inserir(anu);
             return anu.Id;
         }
+
+        public void Excluir(Guid id)
+        {
+            anuncioRepository.Excluir(id);
+        }
+
+        public Guid Alterar(AnuncioDTO anuncio)
+        {
+            AnuncioEntidade anu = AnuncioAdapter.ToDomain(anuncio);
+            anuncioRepository.Alterar(anu);
+            return anu.Id;
+        }
     }
 }

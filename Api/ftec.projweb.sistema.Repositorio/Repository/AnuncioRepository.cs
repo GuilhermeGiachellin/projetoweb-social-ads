@@ -20,12 +20,37 @@ public class AnuncioRepository : IAnuncioRepository
 
     public void Alterar(AnuncioEntidade anuncio)
     {
-        //throw new NotImplementedException();
+        using (NpgsqlConnection con = new NpgsqlConnection(strConexao))
+        {
+            con.Open();
+            using (NpgsqlCommand cmd = new NpgsqlCommand())
+            {
+                cmd.Connection = con;
+                cmd.CommandText = "UPDATE public.anuncio SET urlImagem=@urlImagem, link=@link, texto=@texto WHERE id=@id";
+                cmd.Parameters.AddWithValue("urlImagem", anuncio.UrlImagem);
+                cmd.Parameters.AddWithValue("link", anuncio.Link);
+                cmd.Parameters.AddWithValue("texto", anuncio.Texto);
+                cmd.Parameters.AddWithValue("id", anuncio.Id);
+                cmd.ExecuteNonQuery();               
+            }
+        }
     }
 
     public void Excluir(Guid id)
     {
-        throw new NotImplementedException();
+        using (NpgsqlConnection con = new NpgsqlConnection(strConexao))
+        {
+            con.Open();
+            using (NpgsqlCommand cmd = new NpgsqlCommand())
+            {
+                cmd.Connection = con;
+                
+                cmd.Parameters.Clear();
+                cmd.CommandText = "DELETE from anuncio WHERE id=@id";
+                cmd.Parameters.AddWithValue("id", id);
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 
     public void Inserir(AnuncioEntidade anuncio)

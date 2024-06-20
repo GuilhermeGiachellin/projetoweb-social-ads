@@ -28,6 +28,9 @@ namespace ftec.projweb.sistema.api.Adapter
             else
             {
                 AnuncioDTO anuncioDto = new AnuncioDTO();
+
+                anuncioDto.Id = anuncio.Id;
+
                 anuncioDto.Texto = anuncio.Texto;
                 anuncioDto.UrlImagem = anuncio.UrlImagem;
                 anuncioDto.Link = anuncio.Link;

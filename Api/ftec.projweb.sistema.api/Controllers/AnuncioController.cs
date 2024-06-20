@@ -30,5 +30,19 @@ namespace ftec.projweb.sistema.api.Controllers
             return app.Inserir(AnuncioMapping.ToDto(anuncio));
         }
 
+        [HttpDelete("{id:Guid}")]
+        public void Delete(Guid id)
+        {
+            AnuncioApplication app = new AnuncioApplication();
+            app.Excluir(id);
+        }
+
+        [HttpPut]
+        public Guid Put(AnuncioModel anuncio)
+        {
+            AnuncioApplication app = new AnuncioApplication();
+            return app.Alterar(AnuncioMapping.ToDto(anuncio));
+        }
+
     }
 }
