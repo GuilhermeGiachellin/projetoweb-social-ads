@@ -94,7 +94,8 @@ namespace WebSite.Backend.HTTPClient
                     return sucesso;
                 }
                 else
-                {
+                {   
+                     //teste
                     //Pode-se registrar as falhas neste local
                     //joga para o cliente a falha
                     throw new Exception(response.Content.ReadAsStringAsync().Result);
