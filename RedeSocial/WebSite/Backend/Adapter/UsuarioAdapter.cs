@@ -13,5 +13,16 @@ namespace WebSite.Backend.Adapter
                 Senha = login.Senha,
             };
         }
+
+        public static UsuarioCadastroModel ToUsuarioCadastroModel(UsuarioModel usuario)
+        {
+            return new()
+            {
+                Nome = usuario.Nome,
+                Sobrenome = usuario.Sobrenome,
+                Email = usuario.Email,
+                DataComemorativa = usuario.DataComemorativa
+            };
+        }
     }
 }

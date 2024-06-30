@@ -2,10 +2,10 @@
 {
 	public class UsuarioPerfilModel
 	{
-		public UsuarioModel UsuarioAutenticado { get; set; } = new UsuarioModel();
-		public UsuarioModel UsuarioPerfil { get; set; } = new UsuarioModel();
+		public UserModel UsuarioAutenticado { get; set; } = new UserModel();
+		public UserModel UsuarioPerfil { get; set; } = new UserModel();
 		public List<FeedModel> ListaFeeds { get; set; } = [];
-		public List<UsuarioModel> ListaPrincipaisAmigos { get; set; } = [];
+		public List<UserModel> ListaPrincipaisAmigos { get; set; } = [];
 		public bool IsAmigo { get; set; }
 	}
 }

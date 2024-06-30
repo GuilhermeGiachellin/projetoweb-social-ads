@@ -1,6 +1,6 @@
 ﻿namespace WebSite.Models
 {
-    public class UsuarioModel
+    public class UserModel
     {       
         public int Id { get; set; }
 

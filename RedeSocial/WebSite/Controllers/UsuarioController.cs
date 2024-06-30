@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Intrinsics.Arm;
+using System.Text;
 using WebSite.Backend.Adapter;
 using WebSite.Backend.HTTPClient;
 using WebSite.Backend.Model;
@@ -64,13 +66,13 @@ namespace WebSite.Controllers
 		public IActionResult Login(LoginModel loginModel)		{
 
 			var apiModel = UsuarioAdapter.ToUsuarioLoginModel(loginModel);
-            var response = new APIHttpClient(urlAPI).Post<UsuarioLogin, Backend.Model.Usuario>("Usuario/Login", apiModel);
+            var response = new APIHttpClient(urlAPI).Post<UsuarioLogin, Backend.Model.UsuarioModel>("Usuario/Login", apiModel);
             
-
             if (response is not null)
-			{
-				return RedirectToAction("Index", "RedeSocial");
-			}
+			{                
+                ViewBag.UsuarioLogado = UsuarioAdapter.ToUsuarioCadastroModel(response);
+                return Redirect("Postagem/Feed");
+            }
 			else
 			{
 				ViewBag.MensagemErro = "Nome de usuário ou senha incorretos.";
