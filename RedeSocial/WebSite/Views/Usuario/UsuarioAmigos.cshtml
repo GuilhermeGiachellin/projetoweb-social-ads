@@ -1,0 +1,66 @@
+﻿@model UsuarioAmigos
+<div class="body ">
+
+
+	<form class="mt-4" asp-controller="Usuario" asp-action="UsuarioAmigos" method="post">
+
+		@Html.ValidationSummary()
+
+		<div class="card card-body">
+			<div class="d-flex card shadow-none text-center h-100 mb-3">
+				<h2>Adicione ou Remova Amigos</h2>
+				
+			</div>
+
+
+			<!-- Share feed toolbar END -->
+		</div>
+
+		<div class="row g-3 mt-4">
+
+			<div class="col-12">
+				<!-- Friends item START -->
+				<div class="card shadow-none text-center h-100">
+					<!-- Card body -->
+					<div class="row m-3">
+						<h3>Amigos</h3>
+						<form class="m-3">
+							<input class="form-control m-3" placeholder="Pesquise pelo nome de alguém..." data-bs-toggle="modal" data-bs-target="#modalCreateFeed" style="width: 90%">
+						</form>
+						<div class="col-lg-8 col-md-6 col-sm-5">
+							<div class="dropdown" style="width: 100%">
+								<div class="d-flex align-items-center justify-content-start">
+									<div class="d-flex m-2">
+										<img class="avatar-img rounded-circle border border-white border-3" src="@Model.UrlsMidia" alt="" width="60" height="auto">
+									</div>
+									<div class="row ms-2 mt-2">
+
+										<p>@Model.Usuario</p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-7">
+							<div class="row mt-3">
+																
+									<div class="b mx-3 mb-1 col-3"  aria-label="Remover">
+									<button class="btn btn-secondary mr-3" type="reset" style="background-color:crimson;">Remover</button>
+									</div>
+								
+									<div class="b mx-3 mb-1 col-3" aria-label="Remover" >
+									<button class="btn btn-primary mr-3" type="reset" style="background-color:#9fe3e57a; border: 0px;color:black">Adicionar</button>
+									</div>
+
+							</div>
+						</div>
+							
+					</div>
+
+				</div>
+				<!-- Friends item END -->
+			</div>
+		</div>
+
+	</form>
+</div>

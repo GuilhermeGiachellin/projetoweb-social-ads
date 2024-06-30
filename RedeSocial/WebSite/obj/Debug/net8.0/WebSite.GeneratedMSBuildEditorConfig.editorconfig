@@ -1,4 +1,5 @@
 is_global = true
+build_property.RefitInternalNamespace = WebSite
 build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -17,6 +18,10 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite
 build_property._RazorSourceGeneratorDebug = 
+
+[E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/Anuncio/AnuncioCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW51bmNpb1xBbnVuY2lvQ2FkYXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -48,6 +53,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/Usuario/Usuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/Usuario/UsuarioAmigos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3VhcmlvQW1pZ29zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/Usuario/UsuarioCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3VhcmlvQ2FkYXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/Usuario/UsuarioPerfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3VhcmlvUGVyZmlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/Usuario/UsuarioPublicacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3VhcmlvUHVibGljYWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/C\#/TrabalhoWeb/projetoweb-social-ads/RedeSocial/WebSite/Views/_ViewImports.cshtml]

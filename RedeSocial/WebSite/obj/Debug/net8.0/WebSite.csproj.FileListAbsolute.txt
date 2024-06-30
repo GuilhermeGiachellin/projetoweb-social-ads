@@ -149,3 +149,143 @@ E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\obj\Debug\net8.0\refi
 E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.pdb
 E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.genruntimeconfig.cache
 E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\obj\Debug\net8.0\ref\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\appsettings.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.staticwebassets.runtime.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.exe
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.deps.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.runtimeconfig.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.pdb
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.AssemblyInfoInputs.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.AssemblyInfo.cs
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.CoreCompileInputs.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.RazorAssemblyInfo.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.RazorAssemblyInfo.cs
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.WebSite.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.build.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\bundle\WebSite.styles.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\projectbundle\WebSite.bundle.scp.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\refint\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.pdb
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.genruntimeconfig.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\ref\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.AssemblyReference.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\Refit.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\Refit.HttpClientFactory.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.Up2Date
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\appsettings.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.staticwebassets.runtime.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.exe
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.deps.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.runtimeconfig.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.pdb
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\Refit.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\bin\Debug\net8.0\Refit.HttpClientFactory.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.AssemblyReference.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.AssemblyInfoInputs.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.AssemblyInfo.cs
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.CoreCompileInputs.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.RazorAssemblyInfo.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.RazorAssemblyInfo.cs
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.WebSite.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.build.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\bundle\WebSite.styles.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\projectbundle\WebSite.bundle.scp.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.Up2Date
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\refint\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.pdb
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.genruntimeconfig.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231\RedeSocial\WebSite\obj\Debug\net8.0\ref\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\appsettings.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.staticwebassets.runtime.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.exe
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.deps.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.runtimeconfig.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.pdb
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\Refit.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\bin\Debug\net8.0\Refit.HttpClientFactory.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.AssemblyReference.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.AssemblyInfoInputs.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.AssemblyInfo.cs
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.CoreCompileInputs.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.RazorAssemblyInfo.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.RazorAssemblyInfo.cs
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.WebSite.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.build.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebSite.props
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\bundle\WebSite.styles.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\projectbundle\WebSite.bundle.scp.css
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.Up2Date
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\refint\WebSite.dll
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.pdb
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.genruntimeconfig.cache
+C:\Users\gilik\Downloads\RedeSocial\projetoweb-social-ads-main - 2406-0231 - Copia\RedeSocial\WebSite\obj\Debug\net8.0\ref\WebSite.dll
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\appsettings.json
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.staticwebassets.runtime.json
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.exe
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.deps.json
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.runtimeconfig.json
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.dll
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\WebSite.pdb
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\Refit.dll
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\bin\Debug\net8.0\Refit.HttpClientFactory.dll
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.AssemblyReference.cache
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.AssemblyInfoInputs.cache
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.AssemblyInfo.cs
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.CoreCompileInputs.cache
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.RazorAssemblyInfo.cache
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.RazorAssemblyInfo.cs
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.WebSite.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.build.WebSite.props
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebSite.props
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebSite.props
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\bundle\WebSite.styles.css
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\scopedcss\projectbundle\WebSite.bundle.scp.css
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.Up2Date
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.dll
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\refint\WebSite.dll
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.pdb
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.genruntimeconfig.cache
+C:\Users\giliane.baldissera\Downloads\Projeto\projetoweb-social-ads-main\RedeSocial\WebSite\obj\Debug\net8.0\ref\WebSite.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\bin\Debug\net8.0\Refit.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\bin\Debug\net8.0\Refit.HttpClientFactory.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.AssemblyReference.cache
+E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.Up2Date

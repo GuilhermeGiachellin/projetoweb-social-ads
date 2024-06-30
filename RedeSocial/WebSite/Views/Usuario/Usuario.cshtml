@@ -1,0 +1,81 @@
+﻿<div class="body ">
+
+
+	<form class="mt-4" asp-controller="Usuario" asp-action="CadastroPerfil" method="post">
+
+		@Html.ValidationSummary()
+
+		<div class="avatar avatar-xxl mt-n5 mb-3" style="text-align:center">
+			<img class="avatar-img rounded-circle border border-white border-3" src="https://cdn.pixabay.com/photo/2018/04/27/03/50/portrait-3353699_640.jpg" alt="" width="150" height="auto">
+			<br />
+			<a asp-controller="Usuario" asp-action="Usuario" style="color:darkseagreen">Editar Foto</a>
+		</div>
+
+		<div class="row mt-5">
+			<div class="mt-n5 mb-3" style="text-align:center">
+				<h1>Cadastro de Perfil</h1>
+			</div>
+		</div>
+
+		<label class="col-form-label">Nome:</label>
+		<div class="mb-3 position-relative input-group">
+			<input type="text" class="form-control" id="usuariocadastro.nome" name="usuariocadastro.nome" placeholder="Digite seu nome">
+		</div>
+
+		<label class="col-form-label">Sobrenome:</label>
+		<div class="mb-3 position-relative input-group">
+			<input type="text" class="form-control" id="usuariocadastro.sobrenome" name="usuariocadastro.sobrenome" placeholder="Digite seu Sobrenome">
+		</div>
+
+		<label class="col-form-label">Tipo de Pessoa:</label>
+		<div class="mb-3 position-relative input-group">
+			<select class="form-select form-control">
+				<option value="0">Física</option>
+				<option value="1">Jurídica</option>
+			</select>
+		</div>
+
+		<label class="col-form-label">Sexo:</label>
+		<div class="mb-3 position-relative input-group">
+			<select class="form-select form-control">
+				<option value="0">Masculino</option>
+				<option value="1">Feminino</option>
+			</select>
+		</div>
+
+		<label class="col-form-label">CPF/CNPJ:</label>
+		<div class="mb-3 position-relative input-group">
+			<input type="text" class="form-control" id="usuariocadastro.nome" name="usuariocadastro.nome" placeholder="Digite seu documento">
+		</div>
+
+		<label class="col-form-label">E-mail:</label>
+		<div class="mb-3 position-relative input-group">
+			<input type="email" class="form-control" id="usuariocadastro.email" name="usuariocadastro.email" placeholder="Digite seu email">
+		</div>
+
+		<label class="col-form-label">Telefone:</label>
+		<div class="mb-3 position-relative input-group">
+			<input type="text" class="form-control" id="usuariocadastro.nome" name="usuariocadastro.nome" placeholder="Digite seu telefone">
+		</div>
+
+		<label class="col-form-label">Data Comemorativa:</label>
+		<div class="mb-3 position-relative input-group">
+			<input type="date" class="form-control" id="usuariocadastro.dataComemorativa" name="usuariocadastro.dataComemorativa" placeholder="Digite sua Data Comemorativa">
+		</div>
+
+		<label class="col-form-label">Bio:</label>
+		<div class="mb-3 position-relative input-group">
+			<textarea type="text" class="form-control" id="usuariocadastro.nome" name="usuariocadastro.nome" placeholder="Digite sua bio"></textarea>
+		</div>
+
+
+
+		<div class="d-grid m-5">
+			<div class="b mx-3 mb-1" style="display: flex;justify-content: center; align-items: center; background-color:#9fe3e57a;">
+				<button type="submit" class="btn btn-lg btn-primary-soft">Salvar</button>
+			</div>
+
+		</div>
+
+	</form>
+</div>

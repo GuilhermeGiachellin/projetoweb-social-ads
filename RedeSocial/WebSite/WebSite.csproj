@@ -1,9 +1,57 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Integracao\**" />
+    <Compile Remove="NovaPasta1\**" />
+    <Compile Remove="NovaPasta2\**" />
+    <Compile Remove="NovaPasta\**" />
+    <Compile Remove="Views\NovaPasta1\**" />
+    <Compile Remove="Views\Perfil\**" />
+    <Content Remove="Integracao\**" />
+    <Content Remove="NovaPasta1\**" />
+    <Content Remove="NovaPasta2\**" />
+    <Content Remove="NovaPasta\**" />
+    <Content Remove="Views\NovaPasta1\**" />
+    <Content Remove="Views\Perfil\**" />
+    <EmbeddedResource Remove="Integracao\**" />
+    <EmbeddedResource Remove="NovaPasta1\**" />
+    <EmbeddedResource Remove="NovaPasta2\**" />
+    <EmbeddedResource Remove="NovaPasta\**" />
+    <EmbeddedResource Remove="Views\NovaPasta1\**" />
+    <EmbeddedResource Remove="Views\Perfil\**" />
+    <None Remove="Integracao\**" />
+    <None Remove="NovaPasta1\**" />
+    <None Remove="NovaPasta2\**" />
+    <None Remove="NovaPasta\**" />
+    <None Remove="Views\NovaPasta1\**" />
+    <None Remove="Views\Perfil\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\RedeSocialIndex.cs" />
+    <Compile Remove="Models\UsuarioAdicionaAmigos.cs" />
+    <Compile Remove="Views\Usuario\UsuarioPublicacao.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\RedeSocial\Index1.cshtml" />
+    <Content Remove="Views\Usuario\Cadastrar - Cópia.cshtml" />
+    <Content Remove="Views\Usuario\UsuarioAdicionaAmigos.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Refit" Version="6.3.2" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="6.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="API\" />
+  </ItemGroup>
 
 </Project>

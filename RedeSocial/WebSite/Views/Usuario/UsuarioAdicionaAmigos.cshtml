@@ -1,0 +1,59 @@
+﻿<div class="body ">
+
+
+	<form class="mt-4" asp-controller="Usuario" asp-action="UsuarioAmigos" method="post">
+
+		@Html.ValidationSummary()
+
+		<div class="card card-body">
+			<div class="d-flex mb-3">
+
+				<!-- Post input -->
+				<form class="w-100">
+					<input class="form-control pe-4" placeholder="Pesquise pelo nome de alguém..." data-bs-toggle="modal" data-bs-target="#modalCreateFeed">
+				</form>
+			</div>
+
+
+			<!-- Share feed toolbar END -->
+		</div>
+
+		<div class="row g-3 mt-4">
+
+			<div class="col-12">
+				<!-- Friends item START -->
+				<div class="card shadow-none text-center h-100">
+					<!-- Card body -->
+					<div class="dropdown" style="width: 100%">
+						<div class="d-flex align-items-center justify-content-start">
+							<div class="d-flex m-2">
+								<img class="avatar-img rounded-circle border border-white border-3" src="https://cdn.pixabay.com/photo/2018/04/27/03/50/portrait-3353699_640.jpg" alt="" width="60" height="auto">
+							</div>
+							<div class="row ms-2 mt-2">
+
+								<p>Mike Popescu</p>
+
+							</div>
+							<div class="row offset-8 mt-3">
+								
+								<div class="d-grid">
+									<div class="b mx-3 mb-1" aria-label="Remover" style="display: flex;justify-content: center; align-items: center; background-color:#9fe3e57a;">
+										<button class="btn btn-shadow mr-3" type="reset">Remover</button>
+									</div>
+
+								</div>
+
+
+							</div>
+						</div>
+				
+					</div>
+
+				</div>
+				<!-- Friends item END -->
+			</div>
+
+		</div>
+
+	</form>
+</div>
