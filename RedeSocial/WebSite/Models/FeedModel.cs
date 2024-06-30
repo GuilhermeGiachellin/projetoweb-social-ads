@@ -2,7 +2,7 @@
 {
     public class FeedModel
     {
-        public UsuarioModel Usuario { get; set; } = new UsuarioModel();        
+        public UserModel Usuario { get; set; } = new UserModel();        
 
         public required string Descricao { get; set; }
 

@@ -12,7 +12,7 @@ namespace WebSite.Factory
             {
                 feeds.Add(new FeedModel()
                 { 
-                    Usuario = new UsuarioModel
+                    Usuario = new UserModel
                     {
                         Nome = "Fulano" + i,
                         Sobrenome = "Silva" + i,

@@ -2,7 +2,7 @@
 {
     public class RedeSocialModel
     {
-        public UsuarioModel Usuario { get; set; }
+        public UserModel Usuario { get; set; }
   //      public UsuarioCadastroModel UsuarioCadastro { get; set; }
   //      public UsuarioPerfilModel UsuarioPerfil { get; set; }
    //     public List<UsuarioAmigos> usuarioAmigos { get; set; }
