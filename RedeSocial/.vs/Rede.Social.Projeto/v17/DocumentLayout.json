@@ -7,146 +7,24 @@
       "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\anuncio\\anunciocadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\anuncio\\anunciocadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\usuario\\usuarioamigos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\usuario\\usuarioamigos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\redesocial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\redesocial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\usuario\\usuariocadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\usuario\\usuariocadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\usuario\\usuariopublicacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\usuario\\usuariopublicacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\controllers\\anunciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\controllers\\anunciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\models\\anunciomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\models\\anunciomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\controllers\\redesocialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\controllers\\redesocialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\backend\\adapter\\usuarioadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\backend\\adapter\\usuarioadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\models\\redesocialmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\models\\redesocialmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\backend\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\backend\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\redesocial\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\redesocial\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\backend\\httpclient\\apihttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\backend\\httpclient\\apihttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\models\\usuariopublicacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\models\\usuariopublicacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\models\\usuarioamigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\models\\usuarioamigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\usuario\\usuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\usuario\\usuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\views\\usuario\\usuarioperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\views\\usuario\\usuarioperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\models\\usuarioperfilmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\models\\usuarioperfilmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\models\\usuariocadastromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\models\\usuariocadastromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\factory\\moqfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\factory\\moqfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gilik\\OneDrive\\FTEC\\Projeto Web\\Projeto\\WebSite\\Views\\RedeSocial\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gilik\\Downloads\\APIS\\psw-social\\psw-social-main\\Uniftec.ProjetoSistemasWeb\\SocialUniftec.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\Cadastrar - C\u00F3pia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\Views\\Usuario\\Cadastrar - C\u00F3pia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\RedeSocial\\Index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\Views\\RedeSocial\\Index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Integracao\\Refit\\IViaUsuarioIntegracaoRefit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\Integracao\\Refit\\IViaUsuarioIntegracaoRefit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Integracao\\Responce\\ViaUsuarioResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\Integracao\\Responce\\ViaUsuarioResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioPublicacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\Views\\Usuario\\UsuarioPublicacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\NovaPasta1\\APIHttpClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\NovaPasta1\\APIHttpClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\RedeSocialIndex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\Models\\RedeSocialIndex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioAdicionaAmigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\Models\\UsuarioAdicionaAmigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioAdicionaAmigos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebSite\\Views\\Usuario\\UsuarioAdicionaAmigos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|e:\\c#\\trabalhoweb\\projetoweb-social-ads\\redesocial\\website\\controllers\\anunciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D9488B-E784-45D6-BAC0-15283AFE6C80}|WebSite\\WebSite.csproj|solutionrelative:website\\controllers\\anunciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -156,80 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RedeSocialModel.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\RedeSocialModel.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\RedeSocialModel.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\RedeSocialModel.cs",
-              "RelativeToolTip": "WebSite\\Models\\RedeSocialModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "APIHttpClient.cs",
+              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Backend\\HTTPClient\\APIHttpClient.cs",
+              "RelativeDocumentMoniker": "WebSite\\Backend\\HTTPClient\\APIHttpClient.cs",
+              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Backend\\HTTPClient\\APIHttpClient.cs",
+              "RelativeToolTip": "WebSite\\Backend\\HTTPClient\\APIHttpClient.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEEAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T03:07:24.853Z",
-              "IsPinned": true
+              "WhenOpened": "2024-06-30T06:28:27.77Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "RedeSocialIndex.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\RedeSocialIndex.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\RedeSocialIndex.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\RedeSocialIndex.cs",
-              "RelativeToolTip": "WebSite\\Models\\RedeSocialIndex.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Backend\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "WebSite\\Backend\\Model\\Usuario.cs",
+              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Backend\\Model\\Usuario.cs",
+              "RelativeToolTip": "WebSite\\Backend\\Model\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:40:38.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AnuncioController.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Controllers\\AnuncioController.cs",
-              "RelativeDocumentMoniker": "WebSite\\Controllers\\AnuncioController.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Controllers\\AnuncioController.cs",
-              "RelativeToolTip": "WebSite\\Controllers\\AnuncioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T02:27:40.076Z"
+              "WhenOpened": "2024-06-30T19:38:44.595Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnuncioCadastro.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Anuncio\\AnuncioCadastro.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Anuncio\\AnuncioCadastro.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Anuncio\\AnuncioCadastro.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Anuncio\\AnuncioCadastro.cshtml",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAwwG4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T02:26:04.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UsuarioAdicionaAmigos.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioAdicionaAmigos.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\UsuarioAdicionaAmigos.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioAdicionaAmigos.cs",
-              "RelativeToolTip": "WebSite\\Models\\UsuarioAdicionaAmigos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "WebSite\\Models\\LoginModel.cs",
+              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\LoginModel.cs",
+              "RelativeToolTip": "WebSite\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:52:22.753Z"
+              "WhenOpened": "2024-06-30T18:52:08.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UsuarioAdicionaAmigos.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioAdicionaAmigos.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\UsuarioAdicionaAmigos.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioAdicionaAmigos.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\UsuarioAdicionaAmigos.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T00:50:22.066Z"
+              "DocumentIndex": 2,
+              "Title": "UsuarioAdapter.cs",
+              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Backend\\Adapter\\UsuarioAdapter.cs",
+              "RelativeDocumentMoniker": "WebSite\\Backend\\Adapter\\UsuarioAdapter.cs",
+              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Backend\\Adapter\\UsuarioAdapter.cs",
+              "RelativeToolTip": "WebSite\\Backend\\Adapter\\UsuarioAdapter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T18:43:05.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -239,366 +97,23 @@
               "RelativeDocumentMoniker": "WebSite\\Controllers\\UsuarioController.cs",
               "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "WebSite\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwDUAAAAJAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwD4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:21:21.89Z",
+              "WhenOpened": "2024-06-30T17:46:38.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioAmigos.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioAmigos.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\UsuarioAmigos.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioAmigos.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\UsuarioAmigos.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T17:45:07.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\RedeSocial\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\RedeSocial\\Index.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\RedeSocial\\Index.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\RedeSocial\\Index.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T19:52:30.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsuarioAmigos.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioAmigos.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\UsuarioAmigos.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioAmigos.cs",
-              "RelativeToolTip": "WebSite\\Models\\UsuarioAmigos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:02:07.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UsuarioPerfilModel.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioPerfilModel.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\UsuarioPerfilModel.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioPerfilModel.cs",
-              "RelativeToolTip": "WebSite\\Models\\UsuarioPerfilModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:55:00.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UsuarioPublicacaoModel.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioPublicacaoModel.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\UsuarioPublicacaoModel.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioPublicacaoModel.cs",
-              "RelativeToolTip": "WebSite\\Models\\UsuarioPublicacaoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:42:45.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UsuarioCadastroModel.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioCadastroModel.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\UsuarioCadastroModel.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\UsuarioCadastroModel.cs",
-              "RelativeToolTip": "WebSite\\Models\\UsuarioCadastroModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:34:18.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\LoginModel.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\LoginModel.cs",
-              "RelativeToolTip": "WebSite\\Models\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T19:52:14.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UsuarioPerfil.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioPerfil.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\UsuarioPerfil.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioPerfil.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\UsuarioPerfil.cshtml",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T17:29:42.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "site.css",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebSite\\wwwroot\\css\\site.css",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebSite\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAM0AAAAAAAAAAAAAANkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-23T17:03:34.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "UsuarioPublicacao.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioPublicacao.cs",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\UsuarioPublicacao.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioPublicacao.cs",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\UsuarioPublicacao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:22:47.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioPublicacao.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioPublicacao.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\UsuarioPublicacao.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioPublicacao.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\UsuarioPublicacao.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAACkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T15:21:03.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "additional-methods.min.js",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-              "RelativeDocumentMoniker": "WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-              "RelativeToolTip": "WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAD7QgAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-23T14:35:01.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "additional-methods.js",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "RelativeDocumentMoniker": "WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "RelativeToolTip": "WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ViewState": "AQIAAOwEAAAAAAAAAAAAAOwEAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-23T14:34:39.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Usuario.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\Usuario.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\Usuario.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\Usuario.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\Usuario.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T22:45:53.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "APIHttpClient.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\NovaPasta1\\APIHttpClient.cs",
-              "RelativeDocumentMoniker": "WebSite\\NovaPasta1\\APIHttpClient.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\NovaPasta1\\APIHttpClient.cs",
-              "RelativeToolTip": "WebSite\\NovaPasta1\\APIHttpClient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T21:44:14.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gilik\\OneDrive\\FTEC\\Projeto Web\\Projeto\\WebSite\\Views\\RedeSocial\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gilik\\OneDrive\\FTEC\\Projeto Web\\Projeto\\WebSite\\Views\\RedeSocial\\Index.cshtml",
-              "ViewState": "AQIAAEQBAAAAAAAAAAAQwJQBAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T19:07:36.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Cadastrar - C\u00F3pia.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\Cadastrar - C\u00F3pia.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\Cadastrar - C\u00F3pia.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\Cadastrar - C\u00F3pia.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\Cadastrar - C\u00F3pia.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T19:01:59.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IViaUsuarioIntegracaoRefit.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Integracao\\Refit\\IViaUsuarioIntegracaoRefit.cs",
-              "RelativeDocumentMoniker": "WebSite\\Integracao\\Refit\\IViaUsuarioIntegracaoRefit.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Integracao\\Refit\\IViaUsuarioIntegracaoRefit.cs",
-              "RelativeToolTip": "WebSite\\Integracao\\Refit\\IViaUsuarioIntegracaoRefit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T18:02:54.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ViaUsuarioResponse.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Integracao\\Responce\\ViaUsuarioResponse.cs",
-              "RelativeDocumentMoniker": "WebSite\\Integracao\\Responce\\ViaUsuarioResponse.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Integracao\\Responce\\ViaUsuarioResponse.cs",
-              "RelativeToolTip": "WebSite\\Integracao\\Responce\\ViaUsuarioResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T17:46:53.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WebSite.csproj",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\WebSite.csproj",
-              "RelativeDocumentMoniker": "WebSite\\WebSite.csproj",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\WebSite.csproj",
-              "RelativeToolTip": "WebSite\\WebSite.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-22T17:44:05.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioCadastro.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioCadastro.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\UsuarioCadastro.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\UsuarioCadastro.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\UsuarioCadastro.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T16:29:30.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Program.cs",
-              "RelativeDocumentMoniker": "WebSite\\Program.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Program.cs",
-              "RelativeToolTip": "WebSite\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:28:42.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gilik\\Downloads\\APIS\\psw-social\\psw-social-main\\Uniftec.ProjetoSistemasWeb\\SocialUniftec.API\\Program.cs",
-              "ToolTip": "C:\\Users\\gilik\\Downloads\\APIS\\psw-social\\psw-social-main\\Uniftec.ProjetoSistemasWeb\\SocialUniftec.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:25:37.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RedeSocialController.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Controllers\\RedeSocialController.cs",
-              "RelativeDocumentMoniker": "WebSite\\Controllers\\RedeSocialController.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Controllers\\RedeSocialController.cs",
-              "RelativeToolTip": "WebSite\\Controllers\\RedeSocialController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T03:08:19.963Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-30T02:52:59.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AnuncioModel.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\AnuncioModel.cs",
-              "RelativeDocumentMoniker": "WebSite\\Models\\AnuncioModel.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Models\\AnuncioModel.cs",
-              "RelativeToolTip": "WebSite\\Models\\AnuncioModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "AnuncioController.cs",
+              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Controllers\\AnuncioController.cs",
+              "RelativeDocumentMoniker": "WebSite\\Controllers\\AnuncioController.cs",
+              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Controllers\\AnuncioController.cs",
+              "RelativeToolTip": "WebSite\\Controllers\\AnuncioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T02:50:41.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Index1.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\RedeSocial\\Index1.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\RedeSocial\\Index1.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\RedeSocial\\Index1.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\RedeSocial\\Index1.cshtml",
-              "ViewState": "AQIAAG0BAAAAAAAAAAAowIgBAABaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T03:49:30.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MoqFactory.cs",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Factory\\MoqFactory.cs",
-              "RelativeDocumentMoniker": "WebSite\\Factory\\MoqFactory.cs",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Factory\\MoqFactory.cs",
-              "RelativeToolTip": "WebSite\\Factory\\MoqFactory.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T03:28:12.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Feed.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\RedeSocial\\Feed.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\RedeSocial\\Feed.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\RedeSocial\\Feed.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\RedeSocial\\Feed.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T23:49:33.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebSite\\Views\\Usuario\\Login.cshtml",
-              "ToolTip": "E:\\C#\\TrabalhoWeb\\projetoweb-social-ads\\RedeSocial\\WebSite\\Views\\Usuario\\Login.cshtml",
-              "RelativeToolTip": "WebSite\\Views\\Usuario\\Login.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAACkAAACdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T22:20:45.611Z"
+              "WhenOpened": "2024-06-30T17:46:36.02Z",
+              "EditorCaption": ""
             }
           ]
         }

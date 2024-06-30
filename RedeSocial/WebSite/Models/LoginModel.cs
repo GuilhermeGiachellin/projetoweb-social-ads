@@ -5,10 +5,10 @@ namespace WebSite.Models
     public class LoginModel
     {
 
-        //[Required(ErrorMessage = "O e-mail não foi informado. Por favor, verifique!")]
+        [Required(ErrorMessage = "Email não informado. Por favor, verifique o campo!")]
         public string Email { get; set; }
 
-       // [Required(ErrorMessage = "A senha não foi informada. Por favor, verifique!")]
+        [Required(ErrorMessage = "Senha não informada. Por favor, verifique o campo!")]
         public string Senha { get; set; }
 
     }

@@ -289,3 +289,6 @@ E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\bin\Debug\net8.0\Refi
 E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\bin\Debug\net8.0\Refit.HttpClientFactory.dll
 E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.AssemblyReference.cache
 E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\obj\Debug\net8.0\WebSite.csproj.Up2Date
+E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\C#\TrabalhoWeb\projetoweb-social-ads\RedeSocial\WebSite\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

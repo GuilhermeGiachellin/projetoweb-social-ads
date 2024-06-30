@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Runtime.Intrinsics.Arm;
+using WebSite.Backend.Adapter;
+using WebSite.Backend.HTTPClient;
+using WebSite.Backend.Model;
 using WebSite.Factory;
 using WebSite.Models;
 
@@ -8,6 +12,8 @@ namespace WebSite.Controllers
 {
     public class UsuarioController : Controller
     {
+		private static readonly string urlAPI = "http://grupo3.neurosky.com.br/api/";
+
         public IActionResult Index()
         {			
 				UsuarioPublicacaoModel publicacao = new UsuarioPublicacaoModel();
@@ -22,14 +28,13 @@ namespace WebSite.Controllers
 			
         }
 
-		// Login
-		public IActionResult Login()
-		{
-			return View();
-		}
+        public IActionResult Login()
+        {
+            return View();
+        }
 
-		// Login
-		public IActionResult UsuarioCadastro()
+        // Login
+        public IActionResult UsuarioCadastro()
 		{
 			return View();
 		}
@@ -56,9 +61,13 @@ namespace WebSite.Controllers
         }
 
         [HttpPost]
-		public ActionResult Login(string nome, string senha)
-		{
-			if (nome == "Guilherme" && senha == "123456")
+		public IActionResult Login(LoginModel loginModel)		{
+
+			var apiModel = UsuarioAdapter.ToUsuarioLoginModel(loginModel);
+            var response = new APIHttpClient(urlAPI).Post<UsuarioLogin, Backend.Model.Usuario>("Usuario/Login", apiModel);
+            
+
+            if (response is not null)
 			{
 				return RedirectToAction("Index", "RedeSocial");
 			}
