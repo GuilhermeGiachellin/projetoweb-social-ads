@@ -12,13 +12,13 @@ namespace WebSite.Controllers
 			return View();
 		}
 
-		public List<FeedModel> getFeed()
+		/*public List<FeedModel> getFeed()
 		{
             List <FeedModel> listaFeed = new List<FeedModel>();
 
 			listaFeed = MoqFactory.GerarListaFeed(5);
 
             return listaFeed;
-		}
+		}*/
 	}
 }

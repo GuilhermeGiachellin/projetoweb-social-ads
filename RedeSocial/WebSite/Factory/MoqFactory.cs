@@ -4,7 +4,7 @@ namespace WebSite.Factory
 {
     public class MoqFactory
     {
-        public static List<FeedModel> GerarListaFeed(int quantia)
+        /*public static List<FeedModel> GerarListaFeed(int quantia)
         {
             List<FeedModel> feeds = new List<FeedModel>();
 
@@ -26,7 +26,7 @@ namespace WebSite.Factory
                 });
             }
             return feeds;
-        }
+        }*/
 
         public static List<AnuncioModel> GerarListaAnuncio(int quantia)
         {

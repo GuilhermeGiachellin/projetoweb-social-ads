@@ -1,16 +1,24 @@
-﻿namespace WebSite.Models
+﻿using System.Reflection.Metadata;
+using WebSite.Backend.Model;
+
+namespace WebSite.Models
 {
     public class FeedModel
     {
-        public UserModel Usuario { get; set; } = new UserModel();        
+		public Guid Id { get; set; }
+		public UsuarioModel Usuario { get; set; } = new UsuarioModel();
 
-        public required string Descricao { get; set; }
+		public List<string> ListaMidia { get; set; } = [];
 
-        public DateTime DataPublicacao { get; set; }
+		public required string Descricao { get; set; }
 
-        public string UrlMidia { get; set; }
+		public bool DidLike { get; set; }
 
-        public int Curtidas { get; set; }
- 
-    }
+		public DateTime DataPublicacao { get; set; }
+
+		public int Curtidas { get; set; }		
+
+		public List<ComentarioModel> ListaComentarios { get; set; } = [];
+
+	}
 }

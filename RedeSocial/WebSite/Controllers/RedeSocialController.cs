@@ -12,7 +12,7 @@ namespace WebSite.Controllers
 				
 
 			  RedeSocialModel redeSocial = new RedeSocialModel();
-			  redeSocial.Feed = feedController.getFeed();
+			  /*redeSocial.Feed = feedController.getFeed();*/
 			  redeSocial.Anuncio = anuncioController.getAnuncios();
 			  ViewBag.Feed = redeSocial.Feed;
 			  ViewBag.Anuncio = redeSocial.Anuncio;
