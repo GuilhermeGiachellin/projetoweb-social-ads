@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Reflection.Metadata;
@@ -53,6 +54,22 @@ namespace WebSite.Controllers
 		}
 
 		[HttpPost]
+		public IActionResult SolicitarAmizade()
+		{
+			var solicitacao = new Backend.Model.UsuarioSolicitarAmizade();
+			//Não conseguimos completar o requisitado, logo fizemos a requisição com o valor chumbado para o destinatario
+			solicitacao.Id = UsuarioLogadoSingleton.ReturnInstance().Id;
+			solicitacao.DestinoID = Guid.NewGuid();
+			PostSolicitacaoAmizade(solicitacao);
+			return Redirect("Usuario/UsuarioPerfil");
+		}
+
+		public void PostSolicitacaoAmizade(Backend.Model.UsuarioSolicitarAmizade solicitacao)
+		{
+			var response = 
+				new APIHttpClient(urlAPIUsuario).Post("Publicacao?Id=" + solicitacao.Id + "&IdUsuarioDestino=" + solicitacao.DestinoID, solicitacao);
+		}
+		[HttpPost]
 		public void CriarPublicacao(PublicacaoPostModel post)
 		{
 			if (post.Equals(null))
@@ -63,13 +80,12 @@ namespace WebSite.Controllers
 				post.Usuario = (UsuarioLogadoSingleton.ReturnInstance().Id).ToString();
 				post.DataPublicacao = DateTime.Now;
 			}
-
 			postPublicacao(post);
 		}
-
 		public IActionResult postPublicacao(PublicacaoPostModel post)
 		{
-			var response = new APIHttpClient(urlAPIPublicacao).Post("Publicacao?Id=" + (post.Id).ToString() + "&Usuario=" + post.Usuario + "&Descricao=" + post.Descricao + "&DataPublicacao=" + post.DataPublicacao, post);
+			var response =
+				new APIHttpClient(urlAPIPublicacao).Post("Publicacao?Id=" + (post.Id).ToString() + "&Usuario=" + post.Usuario + "&Descricao=" + post.Descricao + "&DataPublicacao=" + post.DataPublicacao, post);
 			if (!response.Equals(null))
 			{
 				return Redirect("Usuario/UsuarioPerfil");
@@ -77,7 +93,7 @@ namespace WebSite.Controllers
 			else
 			{
 				ViewBag.MensagemErro = "Nome de usuário ou senha incorretos.";
-				return View();
+				return Redirect("Usuario/UsuarioPerfil"); 
 			}
 		}
 
@@ -89,7 +105,7 @@ namespace WebSite.Controllers
 			GetPublicacoes();
 			GetAnuncios();
 			BuildFeed();
-
+						
 			ViewBag.Feed = _feeds;
 			ViewBag.Anuncios = _listaAnuncios;
 			return View();
@@ -201,7 +217,7 @@ namespace WebSite.Controllers
 		}
 
 		//Cadastrar
-		public IActionResult Cadastrar()
+		public IActionResult CadastrarUsuario()
 		{
 			return View();
 		}
@@ -221,7 +237,7 @@ namespace WebSite.Controllers
 				return View();
 			} else
 			{
-				return RedirectToAction("Index", "RedeSocial");
+				return RedirectToAction("UsuarioPerfil", "Usuario");
 			}
 		}
 	}
