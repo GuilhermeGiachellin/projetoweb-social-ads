@@ -17,6 +17,10 @@ namespace WebSite.Controllers
 	public class UsuarioController : Controller
 	{
 		private static readonly string urlAPIUsuario = "http://grupo3.neurosky.com.br/api/";
+		private static readonly string urlAPIAnuncio = "http://grupo1.neurosky.com.br/api/";
+		private static readonly string urlAPIPublicacao = "http://grupo5.neurosky.com.br/api/";
+		private static readonly string urlAPICurtidaComentario = "http://grupo4.neurosky.com.br/api/";
+
 		private List<PublicacaoModel> _listaPublicacoes = new List<PublicacaoModel>();
 		private List<ComentarioModel> _listaComentarios = new List<ComentarioModel>();
 		private List<AnuncioModel> _listaAnuncios = new List<AnuncioModel>();
@@ -49,11 +53,32 @@ namespace WebSite.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult UsuarioPublicacao(PublicacaoModel post)
+		public void CriarPublicacao(PublicacaoPostModel post)
 		{
+			if (post.Equals(null))
+				return;
+			else
+			{
+				post.Id = Guid.NewGuid();
+				post.Usuario = (UsuarioLogadoSingleton.ReturnInstance().Id).ToString();
+				post.DataPublicacao = DateTime.Now;
+			}
 
+			postPublicacao(post);
+		}
 
-			return View();
+		public IActionResult postPublicacao(PublicacaoPostModel post)
+		{
+			var response = new APIHttpClient(urlAPIPublicacao).Post("Publicacao?Id=" + (post.Id).ToString() + "&Usuario=" + post.Usuario + "&Descricao=" + post.Descricao + "&DataPublicacao=" + post.DataPublicacao, post);
+			if (!response.Equals(null))
+			{
+				return Redirect("Usuario/UsuarioPerfil");
+			}
+			else
+			{
+				ViewBag.MensagemErro = "Nome de usuário ou senha incorretos.";
+				return View();
+			}
 		}
 
 
