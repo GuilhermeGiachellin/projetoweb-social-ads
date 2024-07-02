@@ -14,55 +14,67 @@ using WebSite.Models;
 
 namespace WebSite.Controllers
 {
-    public class UsuarioController : Controller
-    {
+	public class UsuarioController : Controller
+	{
 		private static readonly string urlAPIUsuario = "http://grupo3.neurosky.com.br/api/";
 		private List<PublicacaoModel> _listaPublicacoes = new List<PublicacaoModel>();
 		private List<ComentarioModel> _listaComentarios = new List<ComentarioModel>();
+		private List<AnuncioModel> _listaAnuncios = new List<AnuncioModel>();
 		List<Guid> _listaIdCurtidas = new List<Guid>();
 		private List<FeedModel> _feeds = new List<FeedModel>();
 
 		public IActionResult Index()
-        {			
-				UsuarioPublicacaoModel publicacao = new UsuarioPublicacaoModel();
+		{
+			UsuarioPublicacaoModel publicacao = new UsuarioPublicacaoModel();
 
-				publicacao.Id = 1;
-				publicacao.Usuario = "Andre";
-				publicacao.Descricao = "Mensagem";
-				publicacao.DataPublicacao = "06/06/24";
-				publicacao.UrlsMidia = "https://www.msn.com/pt-br/viagem/noticias/os-pa%C3%ADses-com-as-pessoas-mais-bonitas/ss-BB1oAuaW?ocid=msedgntp&pc=DCTS&cvid=c759fca34c6e456cbd30226970b2dafd&ei=18";
+			publicacao.Id = 1;
+			publicacao.Usuario = "Andre";
+			publicacao.Descricao = "Mensagem";
+			publicacao.DataPublicacao = "06/06/24";
+			publicacao.UrlsMidia = "https://www.msn.com/pt-br/viagem/noticias/os-pa%C3%ADses-com-as-pessoas-mais-bonitas/ss-BB1oAuaW?ocid=msedgntp&pc=DCTS&cvid=c759fca34c6e456cbd30226970b2dafd&ei=18";
 
-				return View(publicacao);
-			
-        }
+			return View(publicacao);
 
-        public IActionResult Login()
-        {
-            return View();
-        }
+		}
 
-        // Login
-        public IActionResult UsuarioCadastro()
+		public IActionResult Login()
 		{
 			return View();
 		}
 
-		public IActionResult UsuarioPublicacao()
+		// Login
+		public IActionResult UsuarioCadastro()
 		{
 			return View();
 		}
+
+		[HttpPost]
+		public IActionResult UsuarioPublicacao(PublicacaoModel post)
+		{
+
+
+			return View();
+		}
+
+
 
 		[HttpGet]
-        public IActionResult UsuarioPerfil()
-        {
-			GetPublicacoes();			
+		public IActionResult UsuarioPerfil()
+		{
+			GetPublicacoes();
+			GetAnuncios();
 			BuildFeed();
 
 			ViewBag.Feed = _feeds;
-
+			ViewBag.Anuncios = _listaAnuncios;
 			return View();
-			
-        }
+		}
+
+		public void GetAnuncios()
+		{
+			_listaAnuncios =
+				new APIHttpClient("http://grupo1.neurosky.com.br/api/").Get<List<AnuncioModel>>("anuncio");
+		}
 
 		public void GetPublicacoes()
 		{
@@ -130,10 +142,6 @@ namespace WebSite.Controllers
 				_feeds.Add(feed); 
 			}		
 		}
-
-
-
-
 
 		public IActionResult UsuarioAmigos()
 		{
