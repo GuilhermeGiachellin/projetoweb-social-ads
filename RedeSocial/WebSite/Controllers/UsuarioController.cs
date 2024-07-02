@@ -17,6 +17,8 @@ namespace WebSite.Controllers
 {
 	public class UsuarioController : Controller
 	{
+		//Muitas funçoes estão implementadas de forma bastante inicial já que tivemos algumas dificuldades.
+		//Dessa forma algumas funções apenas estão ligadas ao front-end
 		private static readonly string urlAPIUsuario = "http://grupo3.neurosky.com.br/api/";
 		private static readonly string urlAPIAnuncio = "http://grupo1.neurosky.com.br/api/";
 		private static readonly string urlAPIPublicacao = "http://grupo5.neurosky.com.br/api/";
