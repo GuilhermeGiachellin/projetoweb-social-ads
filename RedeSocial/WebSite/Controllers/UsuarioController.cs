@@ -49,7 +49,7 @@ namespace WebSite.Controllers
 			return View();
 		}
 
-		// Login
+		[HttpPost]
 		public IActionResult UsuarioCadastro()
 		{
 			return View();
@@ -72,10 +72,10 @@ namespace WebSite.Controllers
 				new APIHttpClient(urlAPIUsuario).Post("Publicacao?Id=" + solicitacao.Id + "&IdUsuarioDestino=" + solicitacao.DestinoID, solicitacao);
 		}
 		[HttpPost]
-		public void CriarPublicacao(PublicacaoPostModel post)
+		public IActionResult CriarPublicacao(PublicacaoPostModel post)
 		{
 			if (post.Equals(null))
-				return;
+				return Redirect("UsuarioPerfil");
 			else
 			{
 				post.Id = Guid.NewGuid();
@@ -83,23 +83,14 @@ namespace WebSite.Controllers
 				post.DataPublicacao = DateTime.Now;
 			}
 			postPublicacao(post);
+
+			return Redirect("UsuarioPerfil");
 		}
-		public IActionResult postPublicacao(PublicacaoPostModel post)
+		public void postPublicacao(PublicacaoPostModel post)
 		{
 			var response =
 				new APIHttpClient(urlAPIPublicacao).Post("Publicacao?Id=" + (post.Id).ToString() + "&Usuario=" + post.Usuario + "&Descricao=" + post.Descricao + "&DataPublicacao=" + post.DataPublicacao, post);
-			if (!response.Equals(null))
-			{
-				return Redirect("Usuario/UsuarioPerfil");
-			}
-			else
-			{
-				ViewBag.MensagemErro = "Nome de usuário ou senha incorretos.";
-				return Redirect("Usuario/UsuarioPerfil"); 
-			}
 		}
-
-
 
 		[HttpGet]
 		public IActionResult UsuarioPerfil()
@@ -128,7 +119,7 @@ namespace WebSite.Controllers
 		public int GetCurtidasPorPost(Guid id)
 		{
 			_listaIdCurtidas =
-				new APIHttpClient("http://grupo4.neurosky.com.br/api/").Get<List<Guid>>("comentarios/post/" + id);
+				new APIHttpClient("http://grupo4.neurosky.com.br/api/").Get<List<Guid>>("likes/post/" + id);
 
 			if (_listaIdCurtidas.Count > 0)
 				return _listaIdCurtidas.Count;
@@ -169,31 +160,24 @@ namespace WebSite.Controllers
 		{
 			foreach (var publicacao in _listaPublicacoes)
 			{				
-				getComentariosPorPost(publicacao.Id);									
+				getComentariosPorPost(publicacao.Id);
 
 				FeedModel feed = new FeedModel()
 				{
 					Id = publicacao.Id,
 					Descricao = publicacao.Descricao,
-					Curtidas = GetCurtidasPorPost(publicacao.Id),
+					Curtidas = GetCurtidasPorPost(publicacao.Id),					
 					DataPublicacao = publicacao.DataPublicacao,
-					DidLike = DidLoggedUserLike(),
+					DidLike = DidLoggedUserLike(),					
 					ListaComentarios = _listaComentarios,
-					ListaMidia = getListaMidias(publicacao),
+					ListaMidia = getListaMidias(publicacao),					
 					Usuario = getPostOwner(publicacao.Usuario)
 			};
 				_feeds.Add(feed); 
 			}		
 		}
 
-		public IActionResult UsuarioAmigos()
-		{
-            UsuarioAmigos amigos = new UsuarioAmigos();
-			amigos.Id = 1;
-			amigos.Usuario = "Andre";
-			amigos.UrlsMidia = "https://images.pexels.com/photos/15045083/pexels-photo-15045083/free-photo-of-moda-tendencia-mulher-carro.jpeg";
-            return View(amigos);
-		}
+
         public IActionResult Usuario()
         {
             return View();
