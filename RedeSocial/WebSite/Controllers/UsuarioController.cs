@@ -98,7 +98,7 @@ namespace WebSite.Controllers
 			GetPublicacoes();
 			GetAnuncios();
 			BuildFeed();
-						
+			ViewBag.UsuarioLogado = UsuarioLogadoSingleton.ReturnInstance();
 			ViewBag.Feed = _feeds;
 			ViewBag.Anuncios = _listaAnuncios;
 			return View();
@@ -190,10 +190,9 @@ namespace WebSite.Controllers
             var response = new APIHttpClient(urlAPIUsuario).Post<UsuarioLogin, Backend.Model.UsuarioModel>("Usuario/Login", apiModel);
             
             if (response is not null)
-			{                
-                ViewBag.UsuarioLogado = UsuarioAdapter.ToUsuarioCadastroModel(response);
-				UsuarioLogadoSingleton.GetInstance(response);
-                return Redirect("Usuario/UsuarioPerfil");
+			{                 
+				UsuarioLogadoSingleton.GetInstance(response);				
+				return Redirect("Usuario/UsuarioPerfil");
             }
 			else
 			{
