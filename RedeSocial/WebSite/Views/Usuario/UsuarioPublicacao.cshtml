@@ -2,7 +2,7 @@
 <div class="body ">
 	
 
-	<form class="mt-4" asp-controller="Feed" asp-action="Comentar" method="post">
+	<form class="mt-4" asp-controller="Usuario" asp-action="EfetuarComentarioPost" method="POST">
 
 		@Html.ValidationSummary()
 
@@ -20,7 +20,7 @@
 
 		<label class="col-form-label ms-2">Mensagem:</label>
 		<div class="mb-3 position-relative input-group m-2">
-			<textarea type="text" class="form-control" rows="3" id="usuarioPublicacao.mesnagem" name="usuarioPublicacao.mesnagem" placeholder="Mensagem"></textarea>
+			<textarea type="text" class="form-control" rows="3" id="comentario.conteudo" name="comentario.conteudo" placeholder="Mensagem"></textarea>
 		</div>
 		<ul class="nav nav-pills nav-stack small fw-normal">
 			<li class="nav-item m-2">

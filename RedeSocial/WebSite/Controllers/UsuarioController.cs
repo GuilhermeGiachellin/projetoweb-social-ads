@@ -23,6 +23,7 @@ namespace WebSite.Controllers
 		private List<AnuncioModel> _listaAnuncios = new List<AnuncioModel>();
 		List<Guid> _listaIdCurtidas = new List<Guid>();
 		private List<FeedModel> _feeds = new List<FeedModel>();
+		private ComentarioPostModel _newPostComentario = new ComentarioPostModel();
 
 		public IActionResult Index()
 		{
@@ -225,26 +226,34 @@ namespace WebSite.Controllers
 			}
 		}
 
-		public void postComentario(ComentarioPostModel comentario)
+		public void postComentario()
 		{
-			var responde = new APIHttpClient(urlAPICurtidaComentario).Post("comentarios/post?id" + (comentario.Id).ToString(), comentario);
+			var responde = new APIHttpClient(urlAPICurtidaComentario).Post("comentarios/post/" + PostComentarioSingleton.ReturnInstance().id, PostComentarioSingleton.ReturnInstance());
 		}
 
 		[HttpPost]
-		public IActionResult EfetuaComentarioPost(Guid Id)
+		public IActionResult UsuarioPublicacao(Guid Id)
 		{
-			if (Id == Guid.Empty) { return View(); }
+			ComentarioPostModel model = new ComentarioPostModel();
+			model.id = Id;
+			model.idUsuario = UsuarioLogadoSingleton.ReturnInstance().Id;
+			PostComentarioSingleton.GetInstance(model);		
+			return View();
+		}
 
-			/*ComentarioPostModel comentarioPost = new ComentarioPostModel();
+		[HttpPost]
+		public IActionResult EfetuarComentarioPost(ComentarioPostModel comentario)
+		{
+			PostComentarioSingleton.ReturnInstance().conteudo = comentario.conteudo;
+			PostComentarioSingleton.ReturnInstance().dataEdicao = comentario.dataEdicao;
+			PostComentarioSingleton.ReturnInstance().dataCriacao = comentario.dataCriacao;
+			PostComentarioSingleton.ReturnInstance().quantidadeLikes = 0;
 
-			comentarioPost.Id = Id;
-			comentarioPost.IdUsuario = UsuarioLogadoSingleton.ReturnInstance().Id;
-			comentarioPost.DataCriacao = DateTime.Now;
-			comentarioPost.QuantidadeLikes = 0;
+			postComentario();
 
-			postComentario(comentarioPost);*/
+			PostComentarioSingleton.DeleteSingleton();
 
-			return Redirect("UsuarioPublicacao");
+			return Redirect("UsuarioPerfil");
 		}
 	}
 }

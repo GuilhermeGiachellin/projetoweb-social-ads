@@ -233,7 +233,7 @@
 												}
 											</div>
 											<div>
-												<form asp-action="EfetuaComentarioPost" asp-controller='Usuario' method="POST" class="ml-3">
+												<form asp-action="UsuarioPublicacao" asp-controller='Usuario' method="POST" class="ml-3">
 													<input id="Id" name="Id" value="@item.Id" type="hidden" />
 													<button class="btn btn-link text-muted" type="submit">
 														<i class="las la-comment icon-md"></i>
@@ -258,6 +258,12 @@
 															</div>
 														</div>
 														<div class="dropdown">
+															<form asp-action='CurtirComentario' asp-controller='Feed' method='POST'>
+																<input id="Id" name="Id" value="@item.Id" type="hidden" />
+																<button class="btn btn-link text-muted" type="submit">																	
+																	<span class="ml-2">0</span>
+																</button>
+															</form>
 															<button class="btn p-0" type="button" id="dropdownMenuButton-@comentario.Id" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 																<i class="las la-ellipsis-h icon-lg"></i>
 															</button>
@@ -415,50 +421,3 @@
 	</div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-	function curtirDescurtirPublicacao(element) {
-
-		let idPublicacao = $(element).attr("data-id");
-
-		if (!$(element).hasClass("active")) {
-			$.ajax({
-				url: 'Curtir/' + idPublicacao,
-				type: 'POST',
-				contentType: 'application/json',
-				success: function (response) {
-
-					let nrLikes = parseInt($(element).text().split("(")[1].split(")")[0].trim())
-					nrLikes++;
-
-					$(element).addClass("active");
-
-					$(element).text("Curtiu (" + nrLikes + ")");
-				},
-				error: function (error) {
-					console.log(error);
-				}
-			});
-		} else {
-			$.ajax({
-				url: 'Descurtir/' + idPublicacao,
-				type: 'DELETE',
-				contentType: 'application/json',
-				success: function (response) {
-
-					let nrLikes = parseInt($(element).text().split("(")[1].split(")")[0].trim())
-					nrLikes--;
-
-					$(element).removeClass("active");
-
-					$(element).text("Curtir (" + nrLikes + ")");
-				},
-				error: function (error) {
-					console.log(error);
-				}
-			});
-		}
-
-	}
-
-</script>

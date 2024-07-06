@@ -2,15 +2,16 @@
 {
 	public class ComentarioPostModel
 	{
-		public Guid Id { get; set; }
+		public Guid id { get; set; }
 
-		public Guid IdUsuario { get; set; }
+		public Guid idUsuario { get; set; }
 
-		public DateTime DataCriacao { get; set; }
+		public DateTime dataCriacao { get; set; }
 
-		public DateTime DataEdicao { get; set; }
+		public DateTime dataEdicao { get; set; }
 
-		public long QuantidadeLikes { get; set; }
-
+		public long quantidadeLikes { get; set; }
+		public string conteudo { get; set; }
+	
 	}
 }
