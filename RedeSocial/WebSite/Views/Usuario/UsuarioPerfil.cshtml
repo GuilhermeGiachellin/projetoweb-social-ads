@@ -177,27 +177,6 @@
 									</div>
 								</form>
 								<!--Fim Criar PUBLICACAO-->
-								<!--<div class="card-body">
-										<p class="mb-3 tx-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus minima delectus nemo unde quae recusandae assumenda.</p>
-										<img class="img-fluid" src="https://cdn.pixabay.com/photo/2014/12/16/22/25/sunset-570881_960_720.jpg" alt="">
-									</div>
-									<div class="card-footer">
-										<div class="d-flex post-actions">
-											<a href="javascript:;" class="d-flex align-items-center text-muted mr-4">
-												<i class="las la-heart icon-md"></i>
-												<p class="d-none d-md-block ml-2 mt-3">Curtir</p>
-											</a>
-											<a href="javascript:;" class="d-flex align-items-center text-muted mr-4">
-												<i class="las la-comment icon-md"></i>
-												<p class="d-none d-md-block ml-2 mt-3">Comentar</p>
-											</a>
-											<a href="javascript:;" class="d-flex align-items-center text-muted">
-												<i class="las la-share icon-md"></i>
-												<p class="d-none d-md-block ml-2 mt-3">Compartilhar</p>
-											</a>
-										</div>
-								</div>-->
-
 							</div>
 						</div>
 						<!--Começo feed-->
@@ -235,6 +214,7 @@
 												@if (item.DidLike)
 												{
 													<form asp-action='DescurtirPost' asp-controller='Feed' method='DELETE'>
+														<input id="Id" name="Id" value="@item.Id" type="hidden" />
 														<button class="btn btn-link text-muted" type="submit">
 															<i class="las la-heart icon-lg text-danger"></i>
 															<span class="ml-2">@item.Curtidas</span>
@@ -244,6 +224,7 @@
 												else
 												{
 													<form asp-action='CurtirPost' asp-controller='Feed' method='POST'>
+														<input id="Id" name="Id" value="@item.Id" type="hidden" />
 														<button class="btn btn-link text-muted" type="submit">
 															<i class="las la-heart icon-lg"></i>
 															<span class="ml-2">@item.Curtidas</span>
@@ -293,12 +274,9 @@
 								</div>
 							</div>
 						}
-
 						<!--Fim feed-->
 					</div>
 				</div>
-				<!-- middle wrapper end -->
-				<!-- right wrapper start -->
 				<div class="d-none d-xl-block col-xl-3 right-wrapper">
 					<div class="row">
 						<div class="col-md-12 grid-margin">

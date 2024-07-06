@@ -235,16 +235,16 @@ namespace WebSite.Controllers
 		{
 			if (Id == Guid.Empty) { return View(); }
 
-			ComentarioPostModel comentarioPost = new ComentarioPostModel();
+			/*ComentarioPostModel comentarioPost = new ComentarioPostModel();
 
 			comentarioPost.Id = Id;
 			comentarioPost.IdUsuario = UsuarioLogadoSingleton.ReturnInstance().Id;
 			comentarioPost.DataCriacao = DateTime.Now;
 			comentarioPost.QuantidadeLikes = 0;
 
-			postComentario(comentarioPost);
+			postComentario(comentarioPost);*/
 
-			return Redirect("UsuarioPerfil");
+			return Redirect("UsuarioPublicacao");
 		}
 	}
 }
