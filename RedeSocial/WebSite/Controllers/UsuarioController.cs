@@ -227,8 +227,8 @@ namespace WebSite.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult UsuarioPublicacao(PostIdModel PostId) {
-			if (PostId.Id == Guid.Empty) { return View(); }
+		public IActionResult UsuarioPublicacao(Guid Id) {
+			if (Id == Guid.Empty) { return View(); }
 			return View();
 		}
 	}

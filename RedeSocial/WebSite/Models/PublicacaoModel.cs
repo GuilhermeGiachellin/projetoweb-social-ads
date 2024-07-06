@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata;
-
-namespace WebSite.Models
+﻿namespace WebSite.Models
 {
 	public class PublicacaoModel
 	{
