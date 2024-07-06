@@ -34,6 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\PostIdModel.cs" />
     <Compile Remove="Models\RedeSocialIndex.cs" />
     <Compile Remove="Models\UsuarioAdicionaAmigos.cs" />
     <Compile Remove="Views\Usuario\UsuarioPublicacao.cs" />

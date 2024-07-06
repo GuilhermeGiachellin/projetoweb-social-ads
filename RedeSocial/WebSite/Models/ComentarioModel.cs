@@ -10,7 +10,7 @@ namespace WebSite.Models
 
 		public DateTime DataComentario { get; set; }
 
-		public required String Comentario;
+		public required String Conteudo;
 
 		public int Curtidas { get; set; }
 
