@@ -14,8 +14,7 @@ namespace WebSite.Controllers
         }
 
         public IActionResult Index()
-        {
-            //programar algo
+        {            
             return View();
         }
 
