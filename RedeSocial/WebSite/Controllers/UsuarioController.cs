@@ -27,15 +27,7 @@ namespace WebSite.Controllers
 
 		public IActionResult Index()
 		{
-			UsuarioPublicacaoModel publicacao = new UsuarioPublicacaoModel();
-
-			publicacao.Id = 1;
-			publicacao.Usuario = "Andre";
-			publicacao.Descricao = "Mensagem";
-			publicacao.DataPublicacao = "06/06/24";
-			publicacao.UrlsMidia = "https://www.msn.com/pt-br/viagem/noticias/os-pa%C3%ADses-com-as-pessoas-mais-bonitas/ss-BB1oAuaW?ocid=msedgntp&pc=DCTS&cvid=c759fca34c6e456cbd30226970b2dafd&ei=18";
-
-			return View(publicacao);
+			return View();
 
 		}
 
@@ -97,7 +89,11 @@ namespace WebSite.Controllers
 			BuildFeed();
 			ViewBag.UsuarioLogado = UsuarioLogadoSingleton.ReturnInstance();
 			ViewBag.Feed = _feeds;
-			ViewBag.Anuncios = _listaAnuncios;
+
+			Random rng = new Random();
+			List<AnuncioModel> anunciosEmbaralhados = _listaAnuncios.OrderBy(x => rng.Next()).ToList();
+			ViewBag.Anuncios = anunciosEmbaralhados.First();
+
 			return View();
 		}
 
@@ -237,7 +233,7 @@ namespace WebSite.Controllers
 			ComentarioPostModel model = new ComentarioPostModel();
 			model.id = Id;
 			model.idUsuario = UsuarioLogadoSingleton.ReturnInstance().Id;
-			PostComentarioSingleton.GetInstance(model);		
+			PostComentarioSingleton.GetInstance(model);
 			return View();
 		}
 

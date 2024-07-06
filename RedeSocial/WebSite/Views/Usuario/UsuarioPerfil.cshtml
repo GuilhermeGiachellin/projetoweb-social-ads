@@ -1,5 +1,6 @@
 ﻿@{
 	var logado = ViewBag.UsuarioLogado;
+
 }
 
 <div class="body ">
@@ -109,14 +110,12 @@
 
 								<div class="row" id="principal">
 									<div class="row d-flex" id="anuncio" style="display: flex; flex-wrap: nowrap;">
-
-										<img src="img/img1.jpg">
-
-										<img src="img/img2.jpg">
-
-										<img src="img/img3.jpg">
-
-										<img src="img/img4.jpg">
+										@if (ViewBag.Anuncios != null)
+										{
+											<a href="@ViewBag.Anuncios.Link">
+												<img src="@ViewBag.Anuncios.URLImagem">
+											</a>
+										}
 
 									</div>
 								</div>
@@ -217,7 +216,7 @@
 														<input id="Id" name="Id" value="@item.Id" type="hidden" />
 														<button class="btn btn-link text-muted" type="submit">
 															<i class="las la-heart icon-lg text-danger"></i>
-															<span class="ml-2">@item.Curtidas</span>
+															<span class="ml-2">Curtir @item.Curtidas</span>
 														</button>
 													</form>
 												}
@@ -227,7 +226,7 @@
 														<input id="Id" name="Id" value="@item.Id" type="hidden" />
 														<button class="btn btn-link text-muted" type="submit">
 															<i class="las la-heart icon-lg"></i>
-															<span class="ml-2">@item.Curtidas</span>
+															<span class="ml-2">Curtir @item.Curtidas</span>
 														</button>
 													</form>
 												}
@@ -259,9 +258,9 @@
 														</div>
 														<div class="dropdown">
 															<form asp-action='CurtirComentario' asp-controller='Feed' method='POST'>
-																<input id="Id" name="Id" value="@item.Id" type="hidden" />
-																<button class="btn btn-link text-muted" type="submit">																	
-																	<span class="ml-2">0</span>
+																<input id="Id" name="Id" value="@comentario.Id" type="hidden" />
+																<button class="btn btn-link text-muted" type="submit">
+																	<span class="ml-2">Curtir @comentario.Curtidas</span>
 																</button>
 															</form>
 															<button class="btn p-0" type="button" id="dropdownMenuButton-@comentario.Id" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -420,4 +419,3 @@
 		</div>
 	</div>
 </div>
-
