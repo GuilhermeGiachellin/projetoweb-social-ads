@@ -1,15 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Hosting;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.Reflection.Metadata;
-using System.Runtime.Intrinsics.Arm;
-using System.Text;
+﻿using System.Globalization;
+using Microsoft.AspNetCore.Mvc;
 using WebSite.Backend.Adapter;
 using WebSite.Backend.HTTPClient;
 using WebSite.Backend.Model;
 using WebSite.Backend.Singleton;
-using WebSite.Factory;
 using WebSite.Models;
 
 
@@ -68,9 +62,10 @@ namespace WebSite.Controllers
 
 		public void PostSolicitacaoAmizade(Backend.Model.UsuarioSolicitarAmizade solicitacao)
 		{
-			var response = 
+			var response =
 				new APIHttpClient(urlAPIUsuario).Post("Publicacao?Id=" + solicitacao.Id + "&IdUsuarioDestino=" + solicitacao.DestinoID, solicitacao);
 		}
+
 		[HttpPost]
 		public IActionResult CriarPublicacao(PublicacaoPostModel post)
 		{
@@ -112,7 +107,7 @@ namespace WebSite.Controllers
 
 		public void GetPublicacoes()
 		{
-			_listaPublicacoes = 
+			_listaPublicacoes =
 				new APIHttpClient(urlAPIPublicacao).Get<List<PublicacaoModel>>("Publicacao?idUsuario=" + UsuarioLogadoSingleton.ReturnInstance().Id);
 		}
 
@@ -123,10 +118,10 @@ namespace WebSite.Controllers
 
 			if (_listaIdCurtidas.Count > 0)
 				return _listaIdCurtidas.Count;
-			else 
+			else
 				return 0;
 		}
-		
+
 		public void getComentariosPorPost(Guid idPost)
 		{
 			_listaComentarios =
@@ -139,8 +134,8 @@ namespace WebSite.Controllers
 		}
 
 		public bool DidLoggedUserLike()
-		{			
-			return _listaIdCurtidas.Where(x => x == UsuarioLogadoSingleton.ReturnInstance().Id).Count() >= 1;			
+		{
+			return _listaIdCurtidas.Where(x => x == UsuarioLogadoSingleton.ReturnInstance().Id).Count() >= 1;
 		}
 
 		public List<string> getListaMidias(PublicacaoModel publicacao)
@@ -159,41 +154,44 @@ namespace WebSite.Controllers
 		public void BuildFeed()
 		{
 			foreach (var publicacao in _listaPublicacoes)
-			{				
+			{
 				getComentariosPorPost(publicacao.Id);
 
 				FeedModel feed = new FeedModel()
 				{
 					Id = publicacao.Id,
 					Descricao = publicacao.Descricao,
-					Curtidas = GetCurtidasPorPost(publicacao.Id),					
+					Curtidas = GetCurtidasPorPost(publicacao.Id),
 					DataPublicacao = publicacao.DataPublicacao,
-					DidLike = DidLoggedUserLike(),					
+					DidLike = DidLoggedUserLike(),
 					ListaComentarios = _listaComentarios,
-					ListaMidia = getListaMidias(publicacao),					
+					ListaMidia = getListaMidias(publicacao),
 					Usuario = getPostOwner(publicacao.Usuario)
-			};
-				_feeds.Add(feed); 
-			}		
+				};
+				_feeds.Add(feed);
+			}
+
+			// A API está devolvendo as datas das publicações criadas na nossa aplicação no formato americano, impossibilitando a ordenação corretamente
+			_feeds = _feeds.OrderByDescending(x => x.DataPublicacao).ThenByDescending(x => x.DataPublicacao.TimeOfDay).ToList();
 		}
 
+		public IActionResult Usuario()
+		{
+			return View();
+		}
 
-        public IActionResult Usuario()
-        {
-            return View();
-        }
-
-        [HttpPost]
-		public IActionResult Login(LoginModel loginModel)		{
+		[HttpPost]
+		public IActionResult Login(LoginModel loginModel)
+		{
 
 			var apiModel = UsuarioAdapter.ToUsuarioLoginModel(loginModel);
-            var response = new APIHttpClient(urlAPIUsuario).Post<UsuarioLogin, Backend.Model.UsuarioModel>("Usuario/Login", apiModel);
-            
-            if (response is not null)
-			{                 
-				UsuarioLogadoSingleton.GetInstance(response);				
+			var response = new APIHttpClient(urlAPIUsuario).Post<UsuarioLogin, Backend.Model.UsuarioModel>("Usuario/Login", apiModel);
+
+			if (response is not null)
+			{
+				UsuarioLogadoSingleton.GetInstance(response);
 				return Redirect("Usuario/UsuarioPerfil");
-            }
+			}
 			else
 			{
 				ViewBag.MensagemErro = "Nome de usuário ou senha incorretos.";
@@ -212,7 +210,8 @@ namespace WebSite.Controllers
 		[HttpPost]
 		public IActionResult Cadastrar(UsuarioModel usuario)
 		{
-			if (usuario.Senha == "" || usuario.Nome == "") {
+			if (usuario.Senha == "" || usuario.Nome == "")
+			{
 				ViewBag.MensagemErro = "Preencha os campos corretamente";
 				return View();
 			}
@@ -220,14 +219,16 @@ namespace WebSite.Controllers
 			{
 				ViewBag.MensagemErro = "Preencha os campos corretamente";
 				return View();
-			} else
+			}
+			else
 			{
 				return RedirectToAction("UsuarioPerfil", "Usuario");
 			}
 		}
 
 		[HttpPost]
-		public IActionResult UsuarioPublicacao(Guid Id) {
+		public IActionResult UsuarioPublicacao(Guid Id)
+		{
 			if (Id == Guid.Empty) { return View(); }
 			return View();
 		}
