@@ -36,6 +36,9 @@ namespace WebSite.Controllers
 			new APIHttpClient(urlAPICurtidaComentario).Delete("likes/post/" + idPost + "/" + UsuarioLogadoSingleton.ReturnInstance().Id);
 		}
 
-
+		public void Comentar(Guid idPost)
+		{
+			new APIHttpClient(urlAPICurtidaComentario).Delete("likes/post/" + idPost + "/" + UsuarioLogadoSingleton.ReturnInstance().Id);
+		}
 	}
 }

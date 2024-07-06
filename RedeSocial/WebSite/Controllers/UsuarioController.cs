@@ -225,6 +225,12 @@ namespace WebSite.Controllers
 				return RedirectToAction("UsuarioPerfil", "Usuario");
 			}
 		}
+
+		[HttpPost]
+		public IActionResult UsuarioPublicacao(PostIdModel PostId) {
+			if (PostId.Id == Guid.Empty) { return View(); }
+			return View();
+		}
 	}
 }
 

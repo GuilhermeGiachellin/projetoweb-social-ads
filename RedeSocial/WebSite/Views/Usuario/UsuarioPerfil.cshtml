@@ -252,20 +252,18 @@
 													<form asp-action='CurtirPost' asp-controller='Feed' method='POST'>
 														<button class=" btn btn-shadow mr-3 d-flex align-items-center text-muted mr-4" type="submit">
 															<p class="d-none d-md-block ml-2 mt-3">@item.Curtidas</p>														
-															<p class="d-none d-md-block ml-2 mt-3">Curtir</p>
-														</button>													
+															<p class="d-none d-md-block ml-2 mt-3">Curtir</p>															
+														</button>
 													</form>
-												}
-												
-											</div>
-											<button class=" btn btn-shadow mr-3 d-flex align-items-center text-muted mr-4" type="submit">
-												<i class="las la-comment icon-md"></i>
-												<p class="d-none d-md-block ml-2 mt-3">Comentar</p>
-											</button>
-											<button class=" btn btn-shadow mr-3 d-flex align-items-center text-muted mr-4" type="submit">
-												<i class="las la-share icon-md"></i>
-												<p class="d-none d-md-block ml-2 mt-3">compartilhar</p>
-											</button>
+													<form asp-action="UsuarioPublicacao" asp-controller='Usuario' method="POST">	
+														<input id="Id" name="post.Id" value="@item.Id" type="hidden"/>
+														<button class=" btn btn-shadow mr-3 d-flex align-items-center text-muted mr-4" type="submit">
+															<i class="las la-comment icon-md"></i>
+															<p class="d-none d-md-block ml-2 mt-3">Comentar</p>															
+														</button>
+													</form>													
+												}												
+											</div>											
 										</div>
 									</div>
 								</div>
