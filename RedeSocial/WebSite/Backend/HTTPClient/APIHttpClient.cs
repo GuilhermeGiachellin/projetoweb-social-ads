@@ -79,7 +79,29 @@ namespace WebSite.Backend.HTTPClient
             }
         }
 
-        public T Get<T>(string actionUri)
+		public Guid Post(string action)
+		{
+			using (var client = new HttpClient())
+			{
+				client.BaseAddress = new Uri(baseAPI);
+				client.DefaultRequestHeaders.Accept.Clear();
+				client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+				HttpResponseMessage response = client.PostAsync(action, null).Result;
+				if (response.IsSuccessStatusCode)
+				{
+					var sucesso = response.Content.ReadAsAsync<Guid>().Result;
+					return sucesso;
+				}
+				else
+				{
+					throw new Exception(response.Content.ReadAsStringAsync().Result);
+				}
+			}
+		}	
+		
+
+		public T Get<T>(string actionUri)
         {
             using (var client = new HttpClient())
             {
@@ -124,6 +146,21 @@ namespace WebSite.Backend.HTTPClient
             }
         }
 
-    }    
+		public void Delete(string action)
+		{
+			using (var client = new HttpClient())
+			{
+				client.BaseAddress = new Uri(baseAPI);
+				client.DefaultRequestHeaders.Accept.Clear();
+				client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+				HttpResponseMessage response = client.DeleteAsync(action).Result;
+				if (!response.IsSuccessStatusCode)
+				{
+					throw new Exception(response.Content.ReadAsStringAsync().Result);
+				}
+			}
+		}
+	}    
 
 }

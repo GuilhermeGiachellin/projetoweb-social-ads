@@ -107,19 +107,19 @@ namespace WebSite.Controllers
 		public void GetAnuncios()
 		{
 			_listaAnuncios =
-				new APIHttpClient("http://grupo1.neurosky.com.br/api/").Get<List<AnuncioModel>>("anuncio");
+				new APIHttpClient(urlAPIAnuncio).Get<List<AnuncioModel>>("anuncio");
 		}
 
 		public void GetPublicacoes()
 		{
 			_listaPublicacoes = 
-				new APIHttpClient("http://grupo5.neurosky.com.br/api/").Get<List<PublicacaoModel>>("Publicacao?idUsuario=" + UsuarioLogadoSingleton.ReturnInstance().Id);
+				new APIHttpClient(urlAPIPublicacao).Get<List<PublicacaoModel>>("Publicacao?idUsuario=" + UsuarioLogadoSingleton.ReturnInstance().Id);
 		}
 
 		public int GetCurtidasPorPost(Guid id)
 		{
 			_listaIdCurtidas =
-				new APIHttpClient("http://grupo4.neurosky.com.br/api/").Get<List<Guid>>("likes/post/" + id);
+				new APIHttpClient(urlAPICurtidaComentario).Get<List<Guid>>("likes/post/" + id);
 
 			if (_listaIdCurtidas.Count > 0)
 				return _listaIdCurtidas.Count;
@@ -130,7 +130,7 @@ namespace WebSite.Controllers
 		public void getComentariosPorPost(Guid idPost)
 		{
 			_listaComentarios =
-				new APIHttpClient("http://grupo4.neurosky.com.br/api/").Get<List<ComentarioModel>>("comentarios/post/" + idPost);
+				new APIHttpClient(urlAPICurtidaComentario).Get<List<ComentarioModel>>("comentarios/post/" + idPost);
 		}
 
 		public UsuarioModel getPostOwner(Guid idUsuario)
