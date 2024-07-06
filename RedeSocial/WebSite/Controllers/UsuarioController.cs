@@ -81,6 +81,7 @@ namespace WebSite.Controllers
 
 			return Redirect("UsuarioPerfil");
 		}
+
 		public void postPublicacao(PublicacaoPostModel post)
 		{
 			var response =
@@ -205,8 +206,6 @@ namespace WebSite.Controllers
 			return View();
 		}
 
-
-
 		[HttpPost]
 		public IActionResult Cadastrar(UsuarioModel usuario)
 		{
@@ -226,11 +225,26 @@ namespace WebSite.Controllers
 			}
 		}
 
+		public void postComentario(ComentarioPostModel comentario)
+		{
+			var responde = new APIHttpClient(urlAPICurtidaComentario).Post("comentarios/post?id" + (comentario.Id).ToString(), comentario);
+		}
+
 		[HttpPost]
-		public IActionResult UsuarioPublicacao(Guid Id)
+		public IActionResult EfetuaComentarioPost(Guid Id)
 		{
 			if (Id == Guid.Empty) { return View(); }
-			return View();
+
+			ComentarioPostModel comentarioPost = new ComentarioPostModel();
+
+			comentarioPost.Id = Id;
+			comentarioPost.IdUsuario = UsuarioLogadoSingleton.ReturnInstance().Id;
+			comentarioPost.DataCriacao = DateTime.Now;
+			comentarioPost.QuantidadeLikes = 0;
+
+			postComentario(comentarioPost);
+
+			return Redirect("UsuarioPerfil");
 		}
 	}
 }
