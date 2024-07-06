@@ -267,7 +267,67 @@
 										</div>
 									</div>
 								</div>
-							</div>							
+							</div>	
+							@foreach(var comentario in item.ListaComentarios)
+								{
+								<div class="col-md-12">
+									<div class="card rounded">
+										<div class="card-header">
+											<div class="d-flex align-items-center justify-content-between">
+												<div class="d-flex align-items-center">
+													<img class="img-xs rounded-circle" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
+													<div class="ml-2">
+														<p>Comentario de</p>
+														<p>@item.Usuario.Nome @item.Usuario.Sobrenome</p>
+														<p class="tx-11 text-muted">5 min ago</p>
+													</div>
+												</div>
+												<div class="dropdown">
+													<button class="btn p-0" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<i class="las la-ellipsis-h icon-lg pb-3px"></i>
+													</button>
+													<div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+														<a class="dropdown-item d-flex align-items-center" href="#">
+															<i class="las la-meh icon-sm mr-2"></i> <span class="">Unfollow</span>
+														</a>
+														<a class="dropdown-item d-flex align-items-center" href="#">
+															<i class="las la-level-up-alt icon-sm mr-2"></i> <span class="">Go to post</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<p class="mb-3 tx-14">@item.Descricao</p>
+											<img class="img-fluid" src="https://t.ctcdn.com.br/JtxqlT7X1-WrrL4yuAebx7ubVaI =/1200x675/smart/i726432.jpeg" alt="">
+										</div>
+										<div class="card-footer">
+											<div class="d-flex post-actions">
+												<div class="d-flex justify-content-center align-items-center  text-muted mr-4">
+													@if (item.DidLike)
+													{
+														<form asp-action='DescurtirPost' asp-controller='Feed' method='DELETE'>
+															<button class=" btn btn-shadow mr-3 d-flex align-items-center text-muted mr-4" type="submit">
+																<p class="d-none d-md-block ml-2 mt-3 red">@item.Curtidas</p>
+																<p class="d-none d-md-block ml-2 mt-3 red">Curtir</p>
+															</button>
+														</form>
+													}
+													else
+													{
+														<form asp-action='CurtirPost' asp-controller='Feed' method='POST'>
+															<button class=" btn btn-shadow mr-3 d-flex align-items-center text-muted mr-4" type="submit">
+																<p class="d-none d-md-block ml-2 mt-3">@item.Curtidas</p>
+																<p class="d-none d-md-block ml-2 mt-3">Curtir</p>
+															</button>
+														</form>														
+													}
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								}
 						}						
 						<!--Fim feed-->
 						</div>
